@@ -163,11 +163,17 @@ int proto_uart_get(u8 *b) {
 }
 
 u8 proto_frame_get_cmd1(u8 *_fm) {
-  return _fm[1]&0xff;
+	return _fm[1] & 0xff;
 }
+
 u8 proto_frame_get_cmd2(u8 *_fm) {
   return _fm[2]&0xff;
 }
+
+ short proto_frame_get_cmd(u8 *_fm) {
+   return ((_fm[1]&0xff)<<8) | (_fm[2]&0xfff);
+ }
+
 int proto_frame_get_len(u8 *_fm) {
   return (_fm[3]&0xff << 8) | (_fm[4]&0xff);
 }

@@ -52,6 +52,7 @@ enum {
   u8 proto_frame_get_cmd2(u8 *_fm);
   int proto_frame_get_len(u8 *_fm);
   u8* proto_frame_get_data(u8 *_fm);
+  short proto_frame_get_cmd(u8 *_fm);
 #ifdef __cplusplus
 }
 #endif
