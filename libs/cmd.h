@@ -4,12 +4,14 @@
 extern "C" {
 #endif
 
+#pragma pack(push)
+#pragma pack(1)
   typedef struct ReqMac {
     char yummy;
   }ReqMac_t;
   typedef struct ResMac {
     char ret;
-    char mac[8];
+    char mac[6];
   }ResMac_t;
 
   typedef struct ReqSysVersion {
@@ -180,6 +182,7 @@ extern "C" {
   typedef struct ResLedErrorLed {
     char ret;
   }ResLedErrorLed_t;
+#pragma pack(pop)
 
   enum {
     CMD_REQUEST_MAC = 0x0001,

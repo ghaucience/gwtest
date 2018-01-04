@@ -151,7 +151,13 @@ int proto_frame_set(u8 *_fm, u8 cmd1, u8 cmd2, int _len, u8 *data) {
 
    return len;
 }
-
+/*
+static char proto_buff[4096];
+static char proto_len = 0;
+void proto_uart_push(char *buf, int len) {
+	memcpy(proto_buff + proto_len, )
+}
+*/
 int proto_uart_get(u8 *b) {
   /* get b byte from uart serial buffer */
   /* TODO */
@@ -170,8 +176,8 @@ u8 proto_frame_get_cmd2(u8 *_fm) {
   return _fm[2]&0xff;
 }
 
- short proto_frame_get_cmd(u8 *_fm) {
-   return ((_fm[1]&0xff)<<8) | (_fm[2]&0xfff);
+ int proto_frame_get_cmd(u8 *_fm) {
+   return ((_fm[1]&0xff)<<8) | (_fm[2]&0xff)&0xffff;
  }
 
 int proto_frame_get_len(u8 *_fm) {

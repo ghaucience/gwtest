@@ -5,6 +5,8 @@
 
 extern SOCKET g_sock;
 
+extern void test_info_append_hex(const char *X, char *buf, int len);
+
 static int cmd_frame_send(short cmd, char *data, int len) {
 
 	char buf[256];
@@ -12,24 +14,30 @@ static int cmd_frame_send(short cmd, char *data, int len) {
 	char cmd2 = (cmd>>0)&0xff;
 	int flen = proto_frame_set((unsigned char *)buf, cmd1, cmd2, len, (unsigned char *)data);
 	socket_send(g_sock, buf, flen, 80);
+	test_info_append_hex("SEND:", buf, flen);
 
 	return 0;
 }
 static int cmd_frame_wait(char *frame, int len, int ms) {
-	return socket_recv(g_sock, frame, len, ms); 
+	int ret = socket_recv(g_sock, frame, len, ms); 
+	if (ret > 0) {
+		//proto_frame_set();
+		test_info_append_hex("RECV:", frame, ret);
+	}
+	return ret;
 }
 
 int cmd_request_mac(char *buff) {
 	char frame[256];
 	cmd_frame_send(CMD_REQUEST_MAC, NULL, 0);
 
-	int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 4000);
+	int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 8000);
 
 	if (len <= 0) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_MAC|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_MAC|0x8000))  {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -60,7 +68,7 @@ int cmd_request_sysversion(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_SYSVERSION|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_SYSVERSION|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -87,7 +95,7 @@ int cmd_request_zbversion(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_ZBVERSION|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_ZBVERSION|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -112,7 +120,7 @@ int cmd_request_zwversion(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_ZWVERSION|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_ZWVERSION|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -137,7 +145,7 @@ int cmd_request_model(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_MODEL|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_MODEL|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -162,7 +170,7 @@ int cmd_wan_dhcpcli(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_WAN_DHCPCLI|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_WAN_DHCPCLI|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -185,7 +193,7 @@ int cmd_request_wan_ping_gw(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_WAN_PING_GW|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_WAN_PING_GW|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -208,7 +216,7 @@ int cmd_request_wan_dns_ping(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_WAN_DNS_PING|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_WAN_DNS_PING|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -231,7 +239,7 @@ int cmd_request_wifi_sta(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_WIFI_STA|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_WIFI_STA|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -254,7 +262,7 @@ int cmd_request_wifi_ap(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_WIFI_AP|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_WIFI_AP|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -278,7 +286,7 @@ int cmd_request_wifi_smartconfig(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_WIFI_SMARTCONFIG|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_WIFI_SMARTCONFIG|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -300,7 +308,7 @@ int cmd_request_4g_usb_device(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_4G_USB_DEVICE|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_4G_USB_DEVICE|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -322,7 +330,7 @@ int cmd_request_4g_at_cmd(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_4G_AT_CMD|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_4G_AT_CMD|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -344,7 +352,7 @@ int cmd_request_sim_card_chk(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_SIM_CARD_CHK |0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_SIM_CARD_CHK |0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -366,7 +374,7 @@ int cmd_request_zigbee_pair(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_ZIGBEE_PAIR|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_ZIGBEE_PAIR|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -388,7 +396,7 @@ int cmd_request_zwave_pair(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_ZWAVE_PAIR|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_ZWAVE_PAIR|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -410,7 +418,7 @@ int cmd_request_ble_dev_exsit(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_BLE_DEV_EXSIT|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_BLE_DEV_EXSIT|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -433,7 +441,7 @@ int cmd_request_ble_scan(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_BLE_SCAN|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_BLE_SCAN|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -455,7 +463,7 @@ int cmd_request_btn_pressdown(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_BTN_PRESSDOWN|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_BTN_PRESSDOWN|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -477,7 +485,7 @@ int cmd_request_led_powerled(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_LED_POWERLED|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_LED_POWERLED|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -499,7 +507,7 @@ int cmd_request_led_zwaveled(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_LED_ZWAVELED|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_LED_ZWAVELED|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -521,7 +529,7 @@ int cmd_request_led_zigbeeled(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_LED_ZIGBEELED|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_LED_ZIGBEELED|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -543,7 +551,7 @@ int cmd_request_led_4gled(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_LED_4GLED|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_LED_4GLED|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
@@ -565,7 +573,7 @@ int cmd_request_led_errorled(char *buff) {
 	  return 1;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_LED_ERRORLED|0x81) ) {
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_LED_ERRORLED|0x8000) ) {
 	  return 2;
 	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
