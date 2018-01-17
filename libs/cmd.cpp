@@ -9,12 +9,19 @@ extern void test_info_append_hex(const char *X, char *buf, int len);
 
 static int cmd_frame_send(short cmd, char *data, int len) {
 
+	char tmpbuf[128];
+	while (socket_recv(g_sock, tmpbuf, sizeof(tmpbuf), 1000) > 0) {
+
+	}
+
 	char buf[256];
 	char cmd1 = (cmd >>8)&0xff;
 	char cmd2 = (cmd>>0)&0xff;
 	int flen = proto_frame_set((unsigned char *)buf, cmd1, cmd2, len, (unsigned char *)data);
 	socket_send(g_sock, buf, flen, 80);
 	test_info_append_hex("SEND:", buf, flen);
+
+	
 
 	return 0;
 }
@@ -280,7 +287,7 @@ int cmd_request_wifi_smartconfig(char *buff) {
 	
 	cmd_frame_send(CMD_REQUEST_WIFI_SMARTCONFIG, NULL, 0);
 
-	int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 4000);
+	int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 35000);
 
 	if (len <= 0) {
 	  return 1;
@@ -302,7 +309,7 @@ int cmd_request_4g_usb_device(char *buff) {
 	
 	cmd_frame_send(CMD_REQUEST_4G_USB_DEVICE, NULL, 0);
 
-	int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 4000);
+	int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 15000);
 
 	if (len <= 0) {
 	  return 1;
@@ -324,7 +331,7 @@ int cmd_request_4g_at_cmd(char *buff) {
 	
 	cmd_frame_send(CMD_REQUEST_4G_AT_CMD, NULL, 0);
 
-	int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 4000);
+	int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 20000);
 
 	if (len <= 0) {
 	  return 1;
@@ -346,7 +353,7 @@ int cmd_request_sim_card_chk(char *buff) {
 	
 	cmd_frame_send(CMD_REQUEST_SIM_CARD_CHK, NULL, 0);
 
-	int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 4000);
+	int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 20000);
 
 	if (len <= 0) {
 	  return 1;
@@ -457,7 +464,7 @@ int cmd_request_btn_pressdown(char *buff) {
 	
 	cmd_frame_send(CMD_REQUEST_BTN_PRESSDOWN, NULL, 0);
 
-	int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 4000);
+	int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 15000);
 
 	if (len <= 0) {
 	  return 1;
