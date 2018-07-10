@@ -81,12 +81,65 @@ SOCKET socket_client_open(const char *svr, int port) {
   serAddr.sin_family = AF_INET;
   serAddr.sin_port = htons(port);
   serAddr.sin_addr.S_un.S_addr = inet_addr(svr);
+
+#if 1
+  unsigned long ul = 1;
+  ioctlsocket(sclient, FIONBIO, &ul);
+  
+  int ret = connect(sclient, (sockaddr *)&serAddr, sizeof(serAddr));
+  if (!(ret == SOCKET_ERROR && (WSAGetLastError() == WSAEWOULDBLOCK))) {
+    socket_printf("connect error 1\rn");
+    closesocket(sclient);
+    return NULL;
+  }
+
+  fd_set writefds,expectfds;
+  struct timeval tv;
+ 
+  tv.tv_sec = 2;//设置select()超时时间为2s
+  tv.tv_usec = 0;
+  FD_ZERO(&writefds);
+  FD_ZERO(&expectfds);
+  FD_SET(sclient,&writefds);
+  FD_SET(sclient,&expectfds);
+  int result = select(sclient + 1, NULL, &writefds, &expectfds, &tv);
+  if (result == 0) {
+    socket_printf("connect timeout\n");
+    closesocket(sclient);
+    return NULL;
+  }
+  if (result < 0) {
+    socket_printf("select error: < 0\n");
+    closesocket(sclient);
+    WSACleanup();
+    return NULL;
+  }
+
+  if(FD_ISSET(sclient,&expectfds)) {
+    socket_printf("connect failed!\n");	
+    int error, error_len;
+    error_len = sizeof(error);
+    getsockopt(sclient, SOL_SOCKET, SO_ERROR, (char *)&error, &error_len);//获得错误号
+    socket_printf("error is : excepts!\n");
+    WSACleanup();
+    closesocket(sclient);
+    return NULL;
+  }
+  
+  if(!FD_ISSET(sclient,&writefds)) {
+    socket_printf("connect Error!\n");
+    closesocket(sclient);
+    return NULL;
+  }
+  
+  return sclient;
+#else  
   if (connect(sclient, (sockaddr *)&serAddr, sizeof(serAddr)) == SOCKET_ERROR) {
     socket_printf("connect error !\n");
     closesocket(sclient);
     return NULL;
   }
-  
+#endif  
   return sclient;
 }
 

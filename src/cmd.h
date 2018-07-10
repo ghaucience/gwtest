@@ -183,6 +183,21 @@ extern "C" {
     char ret;
   }ResLedErrorLed_t;
 
+  typedef struct ReqLedAllLedBlink {
+    char yummy;
+  }ReqLedAllLedBlink_t;
+  typedef struct ResLedAllLedBlink {
+    char ret;
+  }ResLedAllLedBlink_t;
+
+  typedef struct ReqLedAllLedRestore {
+    char yummy;
+  }ReqLedAllLedRestore_t;
+  typedef struct ResLedAllLedRestore {
+    char ret;
+  }ResLedAllLedRestore_t;
+  
+
   typedef struct ReqNxp {
     char yummy;
   } ReqNxp_t;
@@ -226,6 +241,8 @@ extern "C" {
     CMD_REQUEST_LED_ERRORLED = 0x0705,
 
     CMD_REQUEST_NXP = 0x0801,
+    CMD_REQUEST_LED_ALLLED_START_BLINK = 0x0706,
+    CMD_REQUEST_LED_ALLLED_RESTORE = 0x0707,
   };
 
   enum {
@@ -260,7 +277,8 @@ extern "C" {
   int cmd_request_led_errorled(char *buff);
 
   int cmd_request_nxp_pair(char *buff);
-
+  int cmd_request_led_allled_start_blink(char *buff);
+  int cmd_request_led_allled_restore();
 #ifdef __cplusplus
 }
 #endif

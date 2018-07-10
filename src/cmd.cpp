@@ -191,7 +191,7 @@ int cmd_request_wan_ping_gw(char *buff) {
 	
 	cmd_frame_send(CMD_REQUEST_WAN_PING_GW, NULL, 0);
 
-	int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 4000);
+	int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 12000);
 
 	if (len <= 0) {
 	  return 1;
@@ -214,7 +214,7 @@ int cmd_request_wan_dns_ping(char *buff) {
 	
 	cmd_frame_send(CMD_REQUEST_WAN_DNS_PING, NULL, 0);
 
-	int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 4000);
+	int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 12000);
 
 	if (len <= 0) {
 	  return 1;
@@ -611,4 +611,48 @@ int cmd_request_nxp_pair(char *buff) {
     return 3;
   }
   return 0;
+}
+int cmd_request_led_allled_start_blink(char *buff) {
+  char frame[256];
+	
+  cmd_frame_send(CMD_REQUEST_LED_ALLLED_START_BLINK, NULL, 0);
+
+  int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 4000);
+
+  if (len <= 0) {
+    return 1;
+  }
+
+  if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_LED_ALLLED_START_BLINK|0x8000) ) {
+    return 2;
+  }
+  char *data = (char*)proto_frame_get_data((u8*)frame);
+  ResLedAllLedBlink_t *res = (ResLedAllLedBlink_t*)data;
+
+  if (res->ret != E_OK) {
+    return 3;
+  }
+  return 0;  
+}
+int cmd_request_led_allled_restore() {
+  char frame[256];
+	
+  cmd_frame_send(CMD_REQUEST_LED_ALLLED_RESTORE, NULL, 0);
+
+  int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 4000);
+
+  if (len <= 0) {
+    return 1;
+  }
+
+  if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_LED_ALLLED_RESTORE|0x8000) ) {
+    return 2;
+  }
+  char *data = (char*)proto_frame_get_data((u8*)frame);
+  ResLedAllLedRestore_t *res = (ResLedAllLedRestore_t*)data;
+
+  if (res->ret != E_OK) {
+    return 3;
+  }
+  return 0;    
 }
