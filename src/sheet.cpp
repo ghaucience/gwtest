@@ -42,10 +42,10 @@
 
  }
 */
-BookHandle sheet_open(const char *path, const char *sheet, const char *cols[], int colcnt) {
+BookHandle sheet_open(const char *path, const char *name, const char *sheetname, int sheetodr, const char *cols[], int colcnt) {
   BookHandle book = xlCreateBook();
   if (!book) {
-    sheet_printf("Can't Create Book : %s/%s\n", path, sheet);
+    sheet_printf("Can't Create Book : %s/%s\n", path, name);
     return NULL;
   }
 
@@ -53,23 +53,22 @@ BookHandle sheet_open(const char *path, const char *sheet, const char *cols[], i
   //wsprintf(file, L"%s/%s", path, sheet);
 
   char file[512];
-  sprintf(file, "%s/%s", path, sheet);
+  sprintf(file, "%s/%s", path, name);
 
   xlBookLoad(book, file);
   
   SheetHandle sh = NULL;
-  sh = xlBookGetSheet(book, 0);
+  sh = xlBookGetSheet(book, sheetodr);
   if (sh == NULL) {
-    sh  = xlBookAddSheet(book, "Sheet1", 0);
-	sheet_append_header(book, cols, colcnt);
+    sh  = xlBookAddSheet(book, sheetname, 0);
+    sheet_append_header(book, sheetodr, cols, colcnt);
   }
-
   
   return book;
 }
-void sheet_append(BookHandle bh, const char *cols[], int colcnt) {
-  SheetHandle sh = xlBookGetSheet(bh, 0);
-  int row = sheet_get_total_colnum(bh);
+void sheet_append(BookHandle bh, int odr, const char *cols[], int colcnt) {
+  SheetHandle sh = xlBookGetSheet(bh, odr);
+  int row = sheet_get_total_colnum(bh, odr);
 
   int i = 0;
   //xlSheetSetCol(sheet, 0, 0, 20, 0, 0);
@@ -77,9 +76,9 @@ void sheet_append(BookHandle bh, const char *cols[], int colcnt) {
     xlSheetWriteStr(sh, row, i, cols[i], 0);
   }
 }
-void sheet_append_header(BookHandle bh, const char *cols[], int colcnt) {
-	SheetHandle sh = xlBookGetSheet(bh, 0);
-	int row = sheet_get_total_colnum(bh)+1;
+void sheet_append_header(BookHandle bh, int odr, const char *cols[], int colcnt) {
+	SheetHandle sh = xlBookGetSheet(bh, odr);
+	int row = sheet_get_total_colnum(bh, odr)+1;
 
 	int i = 0;
 	//xlSheetSetCol(sheet, 0, 0, 20, 0, 0);
@@ -99,8 +98,8 @@ void sheet_close(BookHandle bh) {
   xlBookRelease(bh);
 }
 
-int sheet_get_total_colnum(BookHandle bh) {
-	SheetHandle sh = xlBookGetSheet(bh, 0);
+int sheet_get_total_colnum(BookHandle bh, int odr) {
+	SheetHandle sh = xlBookGetSheet(bh, odr);
 	return xlSheetLastRow(sh);
 }
 

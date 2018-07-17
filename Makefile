@@ -1,7 +1,7 @@
 ROOTDIR	=$(shell pwd)
 WORKDIR	=$(ROOTDIR)/build
 
-VERSION	:= 1.0.5
+VERSION	:= 1.0.7
 targets	+= DSI0134Test_$(VERSION).exe
 
 .PHONY: targets
@@ -14,6 +14,7 @@ srcs		+= $(ROOTDIR)/src/socket.cpp
 srcs		+= $(ROOTDIR)/src/cmd.cpp
 srcs		+= $(ROOTDIR)/src/proto.cpp
 srcs		+= $(ROOTDIR)/src/sheet.cpp
+srcs		+= $(ROOTDIR)/src/ssh2.cpp
 srcs	      	:= $(subst .cpp,.c,$(srcs))
 
 objs 		:= $(subst $(ROOTDIR),$(WORKDIR), $(subst .c,.obj,$(srcs)))

@@ -204,7 +204,22 @@ extern "C" {
   typedef struct ResNxp {
     char ret;
   }ResNxp_t;
-  
+
+
+  typedef struct stReqZWaveIncludeAndQuery {
+    char yummy;
+  } stReqZWaveIncludeAndQuery_t;
+  typedef struct stResZWaveIncludeAndQuery {
+    char ret;
+    char bufstr[128];
+  } stResZWaveIncludeAndQuery_t;
+
+  typedef struct stReqZWaveExclude {
+    char yummy;
+  } stReqZWaveExclude_t;
+  typedef struct stResZWaveExclude {
+    char ret;
+  } stResZWaveExclude_t;
 #pragma pack(pop)
 
   enum {
@@ -229,6 +244,8 @@ extern "C" {
     CMD_REQUEST_ZIGBEE_PAIR = 0x0401,
 
     CMD_REQUEST_ZWAVE_PAIR = 0x0501,
+    CMD_REQUEST_ZWAVE_INCLUDE_AND_QUERY = 0x0502,
+    CMD_REQUEST_ZWAVE_EXCLUDE = 0x0503,
 
     CMD_REQUEST_BLE_DEV_EXSIT = 0x0601,
     CMD_REQUEST_BLE_SCAN = 0x0602,
@@ -243,6 +260,8 @@ extern "C" {
     CMD_REQUEST_NXP = 0x0801,
     CMD_REQUEST_LED_ALLLED_START_BLINK = 0x0706,
     CMD_REQUEST_LED_ALLLED_RESTORE = 0x0707,
+    
+
   };
 
   enum {
@@ -279,6 +298,9 @@ extern "C" {
   int cmd_request_nxp_pair(char *buff);
   int cmd_request_led_allled_start_blink(char *buff);
   int cmd_request_led_allled_restore();
+
+  int cmd_request_zwave_include_and_query(char *buff);
+  int cmd_request_zwave_exclude(char *buff);
 #ifdef __cplusplus
 }
 #endif

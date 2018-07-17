@@ -1,6 +1,8 @@
 #include "cmd.h"
 #include "socket.h"
 #include "proto.h"
+#include <iostream>
+
 
 extern SOCKET g_sock;
 
@@ -655,4 +657,54 @@ int cmd_request_led_allled_restore() {
     return 3;
   }
   return 0;    
+}
+
+
+int cmd_request_zwave_include_and_query(char *buff) {
+  char frame[256];
+  cmd_frame_send(CMD_REQUEST_ZWAVE_INCLUDE_AND_QUERY, NULL, 0);
+
+  int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 15000);
+
+  if (len <= 0) {
+    std::cout << "1 err" << std::endl;
+    return 1;
+  }
+
+  if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_ZWAVE_INCLUDE_AND_QUERY|0x8000))  {
+    std::cout << "2 err" << std::endl;    
+    return 2;
+  }
+  char *data = (char*)proto_frame_get_data((u8*)frame);
+  int llen = sprintf(buff, "%s|%s|%s|%s", "0000000000000000","00-00.00-00.00", "00", "0");
+  stResZWaveIncludeAndQuery_t *res = (stResZWaveIncludeAndQuery_t *)data;
+
+  if (res->ret != E_OK) {
+    std::cout << "3 err" << std::endl;        
+    return 3;
+  }
+  strncpy(buff, res->bufstr, llen);
+  return 0;  
+}
+int cmd_request_zwave_exclude(char *buff) {
+  char frame[256];
+  cmd_frame_send(CMD_REQUEST_ZWAVE_EXCLUDE, NULL, 0);
+
+  int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 12000*3);
+
+  if (len <= 0) {
+    return 1;
+  }
+
+  if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_ZWAVE_EXCLUDE|0x8000))  {
+    return 2;
+  }
+  char *data = (char*)proto_frame_get_data((u8*)frame);
+  stResZWaveExclude_t *res =  (stResZWaveExclude_t*)data;
+
+  if (res->ret != E_OK) {
+    return 3;
+  }
+	
+  return 0;  
 }

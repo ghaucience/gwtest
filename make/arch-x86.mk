@@ -27,7 +27,7 @@ CFLAGS		:= /W3 /nologo /O2 /EHsc /D_CRT_SECURE_NO_WARNINGS
 CFLAGS		+= /I"$(VCInstallDir)\ATLMFC\INCLUDE"
 CFLAGS		+= /I"$(VCInstallDir)\INCLUDE"
 CFLAGS		+= /I"$(WindowsSdkDir)\include"
-CFLAGS		+= /I"./src" /I"." /I"./libs/libxl"
+CFLAGS		+= /I"./src" /I"." /I"./libs/libxl" /I"./libs/libssh2"
 
 CPP			:= cl
 CPPFLAGS		:= $(CFLAGS)
@@ -45,10 +45,12 @@ LDFLAGS		+= /libpath:"$(WindowsSdkDir)\lib"
 #LDFLAGS		+= /libpath:"$(FrameworkSdKDir)\lib"
 #LDFLAGS		+= /libpath:"$(ROOTDIR)/libs/PCOMM"
 LDFLAGS		+= /libpath:"$(ROOTDIR)/libs/libxl"
+LDFLAGS		+= /libpath:"$(ROOTDIR)/libs/libssh2"
 LDFLAGS		+= kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib 
 LDFLAGS		+= ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib
 #LDFLAGS    		+= PCOMM.lib
 LDFLAGS    		+= libxl.lib
+LDFLAGS		+= libssh2.lib
 
 CP			:= cp
 CPFLAGS		:= -rf
