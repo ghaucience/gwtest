@@ -1,0 +1,34 @@
+Microsoft (R) COFF/PE Dumper Version 14.12.25831.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file libds.dll
+
+File Type: DLL
+
+  Section contains the following exports for libds.dll
+
+    00000000 characteristics
+    59E8114C time date stamp Thu Oct 19 10:43:24 2017
+        0.00 version
+           1 ordinal base
+           7 number of functions
+           7 number of names
+
+    ordinal hint RVA      name
+
+          1    0 00001DC0 ds_cleanup
+          2    1 00001DD0 ds_create_dev
+          3    2 00001DE0 ds_destroy_dev
+          4    3 00001DF0 ds_get_rec
+          5    4 00001E00 ds_get_rec_num
+          6    5 00001E10 ds_init
+          7    6 00001E30 ds_set_dev_prov_stat
+
+  Summary
+
+        2000 .data
+        C000 .rdata
+        4000 .reloc
+        1000 .rsrc
+       7D000 .text

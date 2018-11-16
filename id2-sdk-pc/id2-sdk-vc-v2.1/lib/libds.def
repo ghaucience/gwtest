@@ -1,0 +1,9 @@
+EXPORTS;
+	ds_cleanup;
+	ds_create_dev;
+	ds_destroy_dev;
+	ds_get_rec;
+	ds_get_rec_num;
+	ds_init;
+	ds_set_dev_prov_stat;
+
