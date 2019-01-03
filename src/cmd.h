@@ -261,7 +261,7 @@ extern "C" {
     CMD_REQUEST_LED_ALLLED_START_BLINK = 0x0706,
     CMD_REQUEST_LED_ALLLED_RESTORE = 0x0707,
     
-
+    CMD_REQUEST_ST = 0x0802,
   };
 
   enum {
@@ -301,6 +301,8 @@ extern "C" {
 
   int cmd_request_zwave_include_and_query(char *buff);
   int cmd_request_zwave_exclude(char *buff);
+
+  int cmd_request_st(char *buff);
 #ifdef __cplusplus
 }
 #endif

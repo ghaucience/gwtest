@@ -690,7 +690,7 @@ int cmd_request_zwave_exclude(char *buff) {
   char frame[256];
   cmd_frame_send(CMD_REQUEST_ZWAVE_EXCLUDE, NULL, 0);
 
-  int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 12000*3);
+  int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 3000);
 
   if (len <= 0) {
     return 1;
@@ -707,4 +707,28 @@ int cmd_request_zwave_exclude(char *buff) {
   }
 	
   return 0;  
+}
+
+
+int cmd_request_st(char *buff) {
+  char frame[256];
+  cmd_frame_send(CMD_REQUEST_ST, NULL, 0);
+
+  int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 12000*3);
+
+  if (len <= 0) {
+    return 1;
+  }
+
+  if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_ST|0x8000))  {
+    return 2;
+  }
+  char *data = (char*)proto_frame_get_data((u8*)frame);
+  stResZWaveExclude_t *res =  (stResZWaveExclude_t*)data;
+
+  if (res->ret != E_OK) {
+    return 3;
+  }
+  
+  return 0;
 }

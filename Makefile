@@ -1,7 +1,7 @@
 ROOTDIR	=$(shell pwd)
 WORKDIR	=$(ROOTDIR)/build
 
-VERSION	:= 1.0.8
+VERSION	:= 1.0.9
 targets	+= DSI0134Test_$(VERSION).exe
 
 .PHONY: targets
