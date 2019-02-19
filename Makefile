@@ -15,6 +15,7 @@ srcs		+= $(ROOTDIR)/src/cmd.cpp
 srcs		+= $(ROOTDIR)/src/proto.cpp
 srcs		+= $(ROOTDIR)/src/sheet.cpp
 srcs		+= $(ROOTDIR)/src/ssh2.cpp
+srcs		+= $(ROOTDIR)/src/visax.cpp
 srcs	      	:= $(subst .cpp,.c,$(srcs))
 
 objs 		:= $(subst $(ROOTDIR),$(WORKDIR), $(subst .c,.obj,$(srcs)))
