@@ -1,0 +1,2562 @@
+f:\work\project\project\LTE4G\src\gwtest/build/DSI0134Test_1.0.9.exe
+======================ÉèÖÃ Tune [0x1]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.1046,frequency:2.42544e+009
+Îó²î :441.73 KHZ
+======================ÉèÖÃ Tune [0x2]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x2 --device efr32mg1 > .\tune_out.txt
+make: *** [run] Error 1
+f:/work/project/project/LTE4G/src/gwtest $ make run
+f:\work\project\project\LTE4G\src\gwtest/build/DSI0134Test_1.0.9.exe
+======================ÉèÖÃ Tune [0x1]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0928,frequency:2.42544e+009
+Îó²î :441.73 KHZ
+======================ÉèÖÃ Tune [0x2]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x2 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.085,frequency:2.42544e+009
+Îó²î :437.564 KHZ
+======================ÉèÖÃ Tune [0x3]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x3 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0767,frequency:2.42543e+009
+Îó²î :433.397 KHZ
+======================ÉèÖÃ Tune [0x4]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x4 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0755,frequency:2.42543e+009
+Îó²î :433.397 KHZ
+======================ÉèÖÃ Tune [0x5]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x5 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0699,frequency:2.42543e+009
+Îó²î :429.23 KHZ
+======================ÉèÖÃ Tune [0x6]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x6 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0678,frequency:2.42543e+009
+Îó²î :425.064 KHZ
+======================ÉèÖÃ Tune [0x7]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x7 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0687,frequency:2.42542e+009
+Îó²î :420.897 KHZ
+======================ÉèÖÃ Tune [0x8]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x8 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0732,frequency:2.42542e+009
+Îó²î :416.73 KHZ
+======================ÉèÖÃ Tune [0x9]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x9 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0709,frequency:2.42541e+009
+Îó²î :412.564 KHZ
+======================ÉèÖÃ Tune [0xa]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xa --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0668,frequency:2.42541e+009
+Îó²î :412.564 KHZ
+======================ÉèÖÃ Tune [0xb]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xb --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0671,frequency:2.42541e+009
+Îó²î :408.397 KHZ
+======================ÉèÖÃ Tune [0xc]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xc --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0695,frequency:2.4254e+009
+Îó²î :404.23 KHZ
+======================ÉèÖÃ Tune [0xd]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xd --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0647,frequency:2.4254e+009
+Îó²î :400.064 KHZ
+======================ÉèÖÃ Tune [0xe]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xe --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0688,frequency:2.4254e+009
+Îó²î :400.064 KHZ
+======================ÉèÖÃ Tune [0xf]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xf --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0654,frequency:2.4254e+009
+Îó²î :395.897 KHZ
+======================ÉèÖÃ Tune [0x10]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x10 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0661,frequency:2.42539e+009
+Îó²î :391.73 KHZ
+======================ÉèÖÃ Tune [0x11]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x11 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0617,frequency:2.42539e+009
+Îó²î :391.73 KHZ
+======================ÉèÖÃ Tune [0x12]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x12 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.057,frequency:2.42539e+009
+Îó²î :387.564 KHZ
+======================ÉèÖÃ Tune [0x13]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x13 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.057,frequency:2.42538e+009
+Îó²î :383.397 KHZ
+======================ÉèÖÃ Tune [0x14]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x14 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0608,frequency:2.42538e+009
+Îó²î :379.23 KHZ
+======================ÉèÖÃ Tune [0x15]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x15 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0621,frequency:2.42538e+009
+Îó²î :379.23 KHZ
+======================ÉèÖÃ Tune [0x16]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x16 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0647,frequency:2.42538e+009
+Îó²î :375.064 KHZ
+======================ÉèÖÃ Tune [0x17]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x17 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0602,frequency:2.42537e+009
+Îó²î :370.897 KHZ
+======================ÉèÖÃ Tune [0x18]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x18 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0618,frequency:2.42537e+009
+Îó²î :366.73 KHZ
+======================ÉèÖÃ Tune [0x19]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x19 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0605,frequency:2.42537e+009
+Îó²î :366.73 KHZ
+======================ÉèÖÃ Tune [0x1a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0558,frequency:2.42536e+009
+Îó²î :362.564 KHZ
+======================ÉèÖÃ Tune [0x1b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0623,frequency:2.42536e+009
+Îó²î :362.564 KHZ
+======================ÉèÖÃ Tune [0x1c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0655,frequency:2.42536e+009
+Îó²î :358.397 KHZ
+======================ÉèÖÃ Tune [0x1d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0588,frequency:2.42536e+009
+Îó²î :358.397 KHZ
+======================ÉèÖÃ Tune [0x1e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0568,frequency:2.42535e+009
+Îó²î :354.23 KHZ
+======================ÉèÖÃ Tune [0x1f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0555,frequency:2.42535e+009
+Îó²î :350.064 KHZ
+======================ÉèÖÃ Tune [0x20]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x20 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0639,frequency:2.42535e+009
+Îó²î :345.897 KHZ
+======================ÉèÖÃ Tune [0x21]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x21 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0644,frequency:2.42535e+009
+Îó²î :345.897 KHZ
+======================ÉèÖÃ Tune [0x22]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x22 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0612,frequency:2.42534e+009
+Îó²î :341.73 KHZ
+======================ÉèÖÃ Tune [0x23]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x23 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0684,frequency:2.42534e+009
+Îó²î :337.564 KHZ
+======================ÉèÖÃ Tune [0x24]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x24 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0638,frequency:2.42534e+009
+Îó²î :337.564 KHZ
+======================ÉèÖÃ Tune [0x25]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x25 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0624,frequency:2.42534e+009
+Îó²î :337.564 KHZ
+======================ÉèÖÃ Tune [0x26]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x26 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0662,frequency:2.42533e+009
+Îó²î :333.397 KHZ
+======================ÉèÖÃ Tune [0x27]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x27 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0592,frequency:2.42533e+009
+Îó²î :329.23 KHZ
+======================ÉèÖÃ Tune [0x28]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x28 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0574,frequency:2.42533e+009
+Îó²î :325.064 KHZ
+======================ÉèÖÃ Tune [0x29]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x29 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0585,frequency:2.42533e+009
+Îó²î :325.064 KHZ
+======================ÉèÖÃ Tune [0x2a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x2a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0556,frequency:2.42533e+009
+Îó²î :325.064 KHZ
+======================ÉèÖÃ Tune [0x2b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x2b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0539,frequency:2.42532e+009
+Îó²î :320.897 KHZ
+======================ÉèÖÃ Tune [0x2c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x2c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0568,frequency:2.42532e+009
+Îó²î :316.73 KHZ
+======================ÉèÖÃ Tune [0x2d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x2d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0523,frequency:2.42531e+009
+Îó²î :312.564 KHZ
+======================ÉèÖÃ Tune [0x2e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x2e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0588,frequency:2.42531e+009
+Îó²î :312.564 KHZ
+======================ÉèÖÃ Tune [0x2f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x2f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0569,frequency:2.42531e+009
+Îó²î :312.564 KHZ
+======================ÉèÖÃ Tune [0x30]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x30 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0599,frequency:2.42531e+009
+Îó²î :308.397 KHZ
+======================ÉèÖÃ Tune [0x31]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x31 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0522,frequency:2.4253e+009
+Îó²î :304.23 KHZ
+======================ÉèÖÃ Tune [0x32]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x32 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0432,frequency:2.4253e+009
+Îó²î :304.23 KHZ
+======================ÉèÖÃ Tune [0x33]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x33 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0617,frequency:2.4253e+009
+Îó²î :300.064 KHZ
+======================ÉèÖÃ Tune [0x34]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x34 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.043,frequency:2.4253e+009
+Îó²î :300.064 KHZ
+======================ÉèÖÃ Tune [0x35]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x35 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0412,frequency:2.4253e+009
+Îó²î :295.897 KHZ
+======================ÉèÖÃ Tune [0x36]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x36 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0502,frequency:2.42529e+009
+Îó²î :291.73 KHZ
+======================ÉèÖÃ Tune [0x37]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x37 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0402,frequency:2.42529e+009
+Îó²î :291.73 KHZ
+======================ÉèÖÃ Tune [0x38]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x38 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0424,frequency:2.42529e+009
+Îó²î :291.73 KHZ
+======================ÉèÖÃ Tune [0x39]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x39 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0387,frequency:2.42529e+009
+Îó²î :287.564 KHZ
+======================ÉèÖÃ Tune [0x3a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x3a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.032,frequency:2.42528e+009
+Îó²î :283.397 KHZ
+======================ÉèÖÃ Tune [0x3b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x3b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0414,frequency:2.42528e+009
+Îó²î :283.397 KHZ
+======================ÉèÖÃ Tune [0x3c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x3c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0426,frequency:2.42528e+009
+Îó²î :283.397 KHZ
+======================ÉèÖÃ Tune [0x3d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x3d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0425,frequency:2.42528e+009
+Îó²î :279.23 KHZ
+======================ÉèÖÃ Tune [0x3e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x3e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0408,frequency:2.42528e+009
+Îó²î :279.23 KHZ
+======================ÉèÖÃ Tune [0x3f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x3f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0413,frequency:2.42528e+009
+Îó²î :275.064 KHZ
+======================ÉèÖÃ Tune [0x40]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x40 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0404,frequency:2.42527e+009
+Îó²î :270.897 KHZ
+======================ÉèÖÃ Tune [0x41]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x41 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0435,frequency:2.42527e+009
+Îó²î :270.897 KHZ
+======================ÉèÖÃ Tune [0x42]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x42 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.034,frequency:2.42527e+009
+Îó²î :266.73 KHZ
+======================ÉèÖÃ Tune [0x43]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x43 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0398,frequency:2.42527e+009
+Îó²î :266.73 KHZ
+======================ÉèÖÃ Tune [0x44]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x44 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0453,frequency:2.42526e+009
+Îó²î :262.564 KHZ
+======================ÉèÖÃ Tune [0x45]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x45 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0411,frequency:2.42526e+009
+Îó²î :262.564 KHZ
+======================ÉèÖÃ Tune [0x46]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x46 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0378,frequency:2.42526e+009
+Îó²î :262.564 KHZ
+======================ÉèÖÃ Tune [0x47]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x47 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0393,frequency:2.42526e+009
+Îó²î :258.397 KHZ
+======================ÉèÖÃ Tune [0x48]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x48 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0445,frequency:2.42525e+009
+Îó²î :254.23 KHZ
+======================ÉèÖÃ Tune [0x49]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x49 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0382,frequency:2.42525e+009
+Îó²î :254.23 KHZ
+======================ÉèÖÃ Tune [0x4a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x4a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0439,frequency:2.42525e+009
+Îó²î :250.064 KHZ
+======================ÉèÖÃ Tune [0x4b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x4b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0477,frequency:2.42525e+009
+Îó²î :250.064 KHZ
+======================ÉèÖÃ Tune [0x4c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x4c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0384,frequency:2.42525e+009
+Îó²î :250.064 KHZ
+======================ÉèÖÃ Tune [0x4d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x4d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0377,frequency:2.42525e+009
+Îó²î :245.897 KHZ
+======================ÉèÖÃ Tune [0x4e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x4e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0359,frequency:2.42525e+009
+Îó²î :245.897 KHZ
+======================ÉèÖÃ Tune [0x4f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x4f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.043,frequency:2.42524e+009
+Îó²î :241.73 KHZ
+======================ÉèÖÃ Tune [0x50]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x50 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0481,frequency:2.42524e+009
+Îó²î :237.564 KHZ
+======================ÉèÖÃ Tune [0x51]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x51 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.045,frequency:2.42524e+009
+Îó²î :237.564 KHZ
+======================ÉèÖÃ Tune [0x52]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x52 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0419,frequency:2.42524e+009
+Îó²î :237.564 KHZ
+======================ÉèÖÃ Tune [0x53]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x53 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0456,frequency:2.42523e+009
+Îó²î :233.397 KHZ
+======================ÉèÖÃ Tune [0x54]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x54 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0429,frequency:2.42523e+009
+Îó²î :233.397 KHZ
+======================ÉèÖÃ Tune [0x55]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x55 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0413,frequency:2.42523e+009
+Îó²î :229.23 KHZ
+======================ÉèÖÃ Tune [0x56]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x56 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.065,frequency:2.42523e+009
+Îó²î :229.23 KHZ
+======================ÉèÖÃ Tune [0x57]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x57 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0582,frequency:2.42523e+009
+Îó²î :229.23 KHZ
+======================ÉèÖÃ Tune [0x58]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x58 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9746,frequency:2.42523e+009
+Îó²î :225.064 KHZ
+======================ÉèÖÃ Tune [0x59]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x59 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9772,frequency:2.42523e+009
+Îó²î :225.064 KHZ
+======================ÉèÖÃ Tune [0x5a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x5a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9787,frequency:2.42522e+009
+Îó²î :220.897 KHZ
+======================ÉèÖÃ Tune [0x5b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x5b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9759,frequency:2.42522e+009
+Îó²î :220.897 KHZ
+======================ÉèÖÃ Tune [0x5c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x5c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9967,frequency:2.42522e+009
+Îó²î :216.73 KHZ
+======================ÉèÖÃ Tune [0x5d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x5d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9826,frequency:2.42522e+009
+Îó²î :216.73 KHZ
+======================ÉèÖÃ Tune [0x5e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x5e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0028,frequency:2.42522e+009
+Îó²î :216.73 KHZ
+======================ÉèÖÃ Tune [0x5f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x5f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9905,frequency:2.42522e+009
+Îó²î :216.73 KHZ
+======================ÉèÖÃ Tune [0x60]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x60 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9964,frequency:2.42521e+009
+Îó²î :212.564 KHZ
+======================ÉèÖÃ Tune [0x61]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x61 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0024,frequency:2.42521e+009
+Îó²î :208.397 KHZ
+======================ÉèÖÃ Tune [0x62]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x62 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0075,frequency:2.42521e+009
+Îó²î :208.397 KHZ
+======================ÉèÖÃ Tune [0x63]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x63 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0007,frequency:2.42521e+009
+Îó²î :208.397 KHZ
+======================ÉèÖÃ Tune [0x64]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x64 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.99,frequency:2.42521e+009
+Îó²î :208.397 KHZ
+======================ÉèÖÃ Tune [0x65]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x65 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.999,frequency:2.42521e+009
+Îó²î :208.397 KHZ
+======================ÉèÖÃ Tune [0x66]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x66 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14,frequency:2.4252e+009
+Îó²î :204.23 KHZ
+======================ÉèÖÃ Tune [0x67]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x67 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9955,frequency:2.42521e+009
+Îó²î :208.397 KHZ
+======================ÉèÖÃ Tune [0x68]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x68 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9992,frequency:2.4252e+009
+Îó²î :195.897 KHZ
+======================ÉèÖÃ Tune [0x69]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x69 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0011,frequency:2.4252e+009
+Îó²î :200.064 KHZ
+======================ÉèÖÃ Tune [0x6a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x6a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0048,frequency:2.4252e+009
+Îó²î :200.064 KHZ
+======================ÉèÖÃ Tune [0x6b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x6b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0047,frequency:2.4252e+009
+Îó²î :195.897 KHZ
+======================ÉèÖÃ Tune [0x6c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x6c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0146,frequency:2.4252e+009
+Îó²î :195.897 KHZ
+======================ÉèÖÃ Tune [0x6d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x6d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0123,frequency:2.4252e+009
+Îó²î :195.897 KHZ
+======================ÉèÖÃ Tune [0x6e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x6e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0107,frequency:2.4252e+009
+Îó²î :195.897 KHZ
+======================ÉèÖÃ Tune [0x6f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x6f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0136,frequency:2.4252e+009
+Îó²î :195.897 KHZ
+======================ÉèÖÃ Tune [0x70]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x70 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.012,frequency:2.42519e+009
+Îó²î :191.73 KHZ
+======================ÉèÖÃ Tune [0x71]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x71 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0201,frequency:2.42519e+009
+Îó²î :187.564 KHZ
+======================ÉèÖÃ Tune [0x72]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x72 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0147,frequency:2.42519e+009
+Îó²î :187.564 KHZ
+======================ÉèÖÃ Tune [0x73]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x73 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0189,frequency:2.42519e+009
+Îó²î :187.564 KHZ
+======================ÉèÖÃ Tune [0x74]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x74 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0163,frequency:2.42519e+009
+Îó²î :187.564 KHZ
+======================ÉèÖÃ Tune [0x75]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x75 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0099,frequency:2.42518e+009
+Îó²î :183.397 KHZ
+======================ÉèÖÃ Tune [0x76]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x76 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0224,frequency:2.42518e+009
+Îó²î :183.397 KHZ
+======================ÉèÖÃ Tune [0x77]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x77 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0191,frequency:2.42518e+009
+Îó²î :179.23 KHZ
+======================ÉèÖÃ Tune [0x78]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x78 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0244,frequency:2.42518e+009
+Îó²î :179.23 KHZ
+======================ÉèÖÃ Tune [0x79]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x79 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0196,frequency:2.42518e+009
+Îó²î :175.064 KHZ
+======================ÉèÖÃ Tune [0x7a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x7a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.011,frequency:2.42518e+009
+Îó²î :175.064 KHZ
+======================ÉèÖÃ Tune [0x7b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x7b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0119,frequency:2.42518e+009
+Îó²î :175.064 KHZ
+======================ÉèÖÃ Tune [0x7c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x7c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0163,frequency:2.42518e+009
+Îó²î :175.064 KHZ
+======================ÉèÖÃ Tune [0x7d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x7d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0157,frequency:2.42518e+009
+Îó²î :175.064 KHZ
+======================ÉèÖÃ Tune [0x7e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x7e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.018,frequency:2.42517e+009
+Îó²î :170.897 KHZ
+======================ÉèÖÃ Tune [0x7f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x7f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0126,frequency:2.42517e+009
+Îó²î :170.897 KHZ
+======================ÉèÖÃ Tune [0x80]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x80 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0159,frequency:2.42517e+009
+Îó²î :166.73 KHZ
+======================ÉèÖÃ Tune [0x81]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x81 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0151,frequency:2.42516e+009
+Îó²î :162.564 KHZ
+======================ÉèÖÃ Tune [0x82]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x82 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0142,frequency:2.42516e+009
+Îó²î :162.564 KHZ
+======================ÉèÖÃ Tune [0x83]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x83 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.011,frequency:2.42516e+009
+Îó²î :162.564 KHZ
+======================ÉèÖÃ Tune [0x84]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x84 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0194,frequency:2.42516e+009
+Îó²î :162.564 KHZ
+======================ÉèÖÃ Tune [0x85]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x85 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0194,frequency:2.42516e+009
+Îó²î :158.397 KHZ
+======================ÉèÖÃ Tune [0x86]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x86 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0197,frequency:2.42516e+009
+Îó²î :158.397 KHZ
+======================ÉèÖÃ Tune [0x87]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x87 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0209,frequency:2.42516e+009
+Îó²î :158.397 KHZ
+======================ÉèÖÃ Tune [0x88]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x88 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0187,frequency:2.42515e+009
+Îó²î :154.23 KHZ
+======================ÉèÖÃ Tune [0x89]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x89 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0149,frequency:2.42515e+009
+Îó²î :154.23 KHZ
+======================ÉèÖÃ Tune [0x8a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x8a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.014,frequency:2.42515e+009
+Îó²î :154.23 KHZ
+======================ÉèÖÃ Tune [0x8b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x8b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.021,frequency:2.42515e+009
+Îó²î :154.23 KHZ
+======================ÉèÖÃ Tune [0x8c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x8c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0253,frequency:2.42515e+009
+Îó²î :150.064 KHZ
+======================ÉèÖÃ Tune [0x8d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x8d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0106,frequency:2.42515e+009
+Îó²î :150.064 KHZ
+======================ÉèÖÃ Tune [0x8e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x8e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0225,frequency:2.42515e+009
+Îó²î :145.897 KHZ
+======================ÉèÖÃ Tune [0x8f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x8f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0145,frequency:2.42515e+009
+Îó²î :145.897 KHZ
+======================ÉèÖÃ Tune [0x90]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x90 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0041,frequency:2.42514e+009
+Îó²î :141.73 KHZ
+======================ÉèÖÃ Tune [0x91]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x91 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9979,frequency:2.42514e+009
+Îó²î :141.73 KHZ
+======================ÉèÖÃ Tune [0x92]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x92 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9574,frequency:2.42514e+009
+Îó²î :141.73 KHZ
+======================ÉèÖÃ Tune [0x93]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x93 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.97,frequency:2.42514e+009
+Îó²î :141.73 KHZ
+======================ÉèÖÃ Tune [0x94]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x94 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9842,frequency:2.42514e+009
+Îó²î :141.73 KHZ
+======================ÉèÖÃ Tune [0x95]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x95 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9656,frequency:2.42514e+009
+Îó²î :137.564 KHZ
+======================ÉèÖÃ Tune [0x96]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x96 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.981,frequency:2.42514e+009
+Îó²î :137.564 KHZ
+======================ÉèÖÃ Tune [0x97]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x97 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9811,frequency:2.42514e+009
+Îó²î :137.564 KHZ
+======================ÉèÖÃ Tune [0x98]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x98 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9942,frequency:2.42513e+009
+Îó²î :133.397 KHZ
+======================ÉèÖÃ Tune [0x99]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x99 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9863,frequency:2.42513e+009
+Îó²î :133.397 KHZ
+======================ÉèÖÃ Tune [0x9a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x9a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9978,frequency:2.42513e+009
+Îó²î :133.397 KHZ
+======================ÉèÖÃ Tune [0x9b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x9b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9896,frequency:2.42513e+009
+Îó²î :133.397 KHZ
+======================ÉèÖÃ Tune [0x9c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x9c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9999,frequency:2.42513e+009
+Îó²î :133.397 KHZ
+======================ÉèÖÃ Tune [0x9d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x9d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9875,frequency:2.42513e+009
+Îó²î :129.23 KHZ
+======================ÉèÖÃ Tune [0x9e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x9e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9838,frequency:2.42513e+009
+Îó²î :129.23 KHZ
+======================ÉèÖÃ Tune [0x9f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x9f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9958,frequency:2.42513e+009
+Îó²î :129.23 KHZ
+======================ÉèÖÃ Tune [0xa0]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xa0 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9919,frequency:2.42513e+009
+Îó²î :125.064 KHZ
+======================ÉèÖÃ Tune [0xa1]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xa1 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9941,frequency:2.42512e+009
+Îó²î :120.897 KHZ
+======================ÉèÖÃ Tune [0xa2]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xa2 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9916,frequency:2.42512e+009
+Îó²î :120.897 KHZ
+======================ÉèÖÃ Tune [0xa3]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xa3 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9859,frequency:2.42512e+009
+Îó²î :120.897 KHZ
+======================ÉèÖÃ Tune [0xa4]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xa4 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9872,frequency:2.42512e+009
+Îó²î :120.897 KHZ
+======================ÉèÖÃ Tune [0xa5]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xa5 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9954,frequency:2.42512e+009
+Îó²î :120.897 KHZ
+======================ÉèÖÃ Tune [0xa6]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xa6 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.997,frequency:2.42512e+009
+Îó²î :116.73 KHZ
+======================ÉèÖÃ Tune [0xa7]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xa7 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9868,frequency:2.42512e+009
+Îó²î :116.73 KHZ
+======================ÉèÖÃ Tune [0xa8]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xa8 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9926,frequency:2.42512e+009
+Îó²î :116.73 KHZ
+======================ÉèÖÃ Tune [0xa9]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xa9 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0039,frequency:2.42511e+009
+Îó²î :112.564 KHZ
+======================ÉèÖÃ Tune [0xaa]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xaa --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9944,frequency:2.42511e+009
+Îó²î :112.564 KHZ
+======================ÉèÖÃ Tune [0xab]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xab --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9977,frequency:2.42511e+009
+Îó²î :112.564 KHZ
+======================ÉèÖÃ Tune [0xac]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xac --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9963,frequency:2.42511e+009
+Îó²î :112.564 KHZ
+======================ÉèÖÃ Tune [0xad]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xad --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9974,frequency:2.42511e+009
+Îó²î :112.564 KHZ
+======================ÉèÖÃ Tune [0xae]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xae --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0023,frequency:2.42511e+009
+Îó²î :108.397 KHZ
+======================ÉèÖÃ Tune [0xaf]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xaf --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0007,frequency:2.42511e+009
+Îó²î :108.397 KHZ
+======================ÉèÖÃ Tune [0xb0]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xb0 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.993,frequency:2.42511e+009
+Îó²î :108.397 KHZ
+======================ÉèÖÃ Tune [0xb1]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xb1 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9961,frequency:2.4251e+009
+Îó²î :104.23 KHZ
+======================ÉèÖÃ Tune [0xb2]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xb2 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9969,frequency:2.4251e+009
+Îó²î :104.23 KHZ
+======================ÉèÖÃ Tune [0xb3]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xb3 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0026,frequency:2.4251e+009
+Îó²î :104.23 KHZ
+======================ÉèÖÃ Tune [0xb4]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xb4 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9965,frequency:2.4251e+009
+Îó²î :100.064 KHZ
+======================ÉèÖÃ Tune [0xb5]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xb5 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9875,frequency:2.4251e+009
+Îó²î :100.064 KHZ
+======================ÉèÖÃ Tune [0xb6]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xb6 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9876,frequency:2.4251e+009
+Îó²î :100.064 KHZ
+======================ÉèÖÃ Tune [0xb7]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xb7 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9965,frequency:2.4251e+009
+Îó²î :100.064 KHZ
+======================ÉèÖÃ Tune [0xb8]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xb8 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9929,frequency:2.4251e+009
+Îó²î :100.064 KHZ
+======================ÉèÖÃ Tune [0xb9]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xb9 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9935,frequency:2.4251e+009
+Îó²î :95.897 KHZ
+======================ÉèÖÃ Tune [0xba]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xba --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9922,frequency:2.4251e+009
+Îó²î :95.897 KHZ
+======================ÉèÖÃ Tune [0xbb]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xbb --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.001,frequency:2.4251e+009
+Îó²î :100.064 KHZ
+======================ÉèÖÃ Tune [0xbc]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xbc --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9773,frequency:2.42509e+009
+Îó²î :91.73 KHZ
+======================ÉèÖÃ Tune [0xbd]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xbd --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9901,frequency:2.4251e+009
+Îó²î :95.897 KHZ
+======================ÉèÖÃ Tune [0xbe]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xbe --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9958,frequency:2.4251e+009
+Îó²î :95.897 KHZ
+======================ÉèÖÃ Tune [0xbf]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xbf --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9996,frequency:2.4251e+009
+Îó²î :95.897 KHZ
+======================ÉèÖÃ Tune [0xc0]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xc0 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9965,frequency:2.42509e+009
+Îó²î :91.73 KHZ
+======================ÉèÖÃ Tune [0xc1]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xc1 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0063,frequency:2.42509e+009
+Îó²î :91.73 KHZ
+======================ÉèÖÃ Tune [0xc2]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xc2 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0045,frequency:2.42509e+009
+Îó²î :87.564 KHZ
+======================ÉèÖÃ Tune [0xc3]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xc3 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9974,frequency:2.42509e+009
+Îó²î :87.564 KHZ
+======================ÉèÖÃ Tune [0xc4]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xc4 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0047,frequency:2.42509e+009
+Îó²î :87.564 KHZ
+======================ÉèÖÃ Tune [0xc5]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xc5 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0092,frequency:2.42509e+009
+Îó²î :87.564 KHZ
+======================ÉèÖÃ Tune [0xc6]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xc6 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0141,frequency:2.42509e+009
+Îó²î :87.564 KHZ
+======================ÉèÖÃ Tune [0xc7]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xc7 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0063,frequency:2.42509e+009
+Îó²î :87.564 KHZ
+======================ÉèÖÃ Tune [0xc8]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xc8 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0036,frequency:2.42508e+009
+Îó²î :83.397 KHZ
+======================ÉèÖÃ Tune [0xc9]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xc9 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9988,frequency:2.42508e+009
+Îó²î :83.397 KHZ
+======================ÉèÖÃ Tune [0xca]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xca --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9988,frequency:2.42508e+009
+Îó²î :83.397 KHZ
+======================ÉèÖÃ Tune [0xcb]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xcb --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0028,frequency:2.42508e+009
+Îó²î :83.397 KHZ
+======================ÉèÖÃ Tune [0xcc]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xcc --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0035,frequency:2.42508e+009
+Îó²î :79.23 KHZ
+======================ÉèÖÃ Tune [0xcd]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xcd --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0014,frequency:2.42508e+009
+Îó²î :79.23 KHZ
+======================ÉèÖÃ Tune [0xce]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xce --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0022,frequency:2.42508e+009
+Îó²î :79.23 KHZ
+======================ÉèÖÃ Tune [0xcf]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xcf --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0075,frequency:2.42508e+009
+Îó²î :79.23 KHZ
+======================ÉèÖÃ Tune [0xd0]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xd0 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0029,frequency:2.42508e+009
+Îó²î :79.23 KHZ
+======================ÉèÖÃ Tune [0xd1]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xd1 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0007,frequency:2.42508e+009
+Îó²î :79.23 KHZ
+======================ÉèÖÃ Tune [0xd2]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xd2 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0049,frequency:2.42508e+009
+Îó²î :75.064 KHZ
+======================ÉèÖÃ Tune [0xd3]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xd3 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.008,frequency:2.42508e+009
+Îó²î :75.064 KHZ
+======================ÉèÖÃ Tune [0xd4]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xd4 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0107,frequency:2.42508e+009
+Îó²î :75.064 KHZ
+======================ÉèÖÃ Tune [0xd5]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xd5 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0054,frequency:2.42507e+009
+Îó²î :70.897 KHZ
+======================ÉèÖÃ Tune [0xd6]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xd6 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0073,frequency:2.42507e+009
+Îó²î :70.897 KHZ
+======================ÉèÖÃ Tune [0xd7]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xd7 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0011,frequency:2.42507e+009
+Îó²î :70.897 KHZ
+======================ÉèÖÃ Tune [0xd8]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xd8 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0001,frequency:2.42507e+009
+Îó²î :66.73 KHZ
+======================ÉèÖÃ Tune [0xd9]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xd9 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0052,frequency:2.42507e+009
+Îó²î :66.73 KHZ
+======================ÉèÖÃ Tune [0xda]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xda --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0081,frequency:2.42507e+009
+Îó²î :66.73 KHZ
+======================ÉèÖÃ Tune [0xdb]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xdb --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14,frequency:2.42507e+009
+Îó²î :66.73 KHZ
+======================ÉèÖÃ Tune [0xdc]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xdc --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0032,frequency:2.42507e+009
+Îó²î :66.73 KHZ
+======================ÉèÖÃ Tune [0xdd]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xdd --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0033,frequency:2.42507e+009
+Îó²î :66.73 KHZ
+======================ÉèÖÃ Tune [0xde]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xde --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0032,frequency:2.42507e+009
+Îó²î :66.73 KHZ
+======================ÉèÖÃ Tune [0xdf]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xdf --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0042,frequency:2.42507e+009
+Îó²î :66.73 KHZ
+======================ÉèÖÃ Tune [0xe0]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xe0 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.001,frequency:2.42506e+009
+Îó²î :62.564 KHZ
+======================ÉèÖÃ Tune [0xe1]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xe1 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9982,frequency:2.42506e+009
+Îó²î :62.564 KHZ
+======================ÉèÖÃ Tune [0xe2]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xe2 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.991,frequency:2.42506e+009
+Îó²î :58.397 KHZ
+======================ÉèÖÃ Tune [0xe3]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xe3 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9953,frequency:2.42506e+009
+Îó²î :58.397 KHZ
+======================ÉèÖÃ Tune [0xe4]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xe4 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9993,frequency:2.42506e+009
+Îó²î :58.397 KHZ
+======================ÉèÖÃ Tune [0xe5]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xe5 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9979,frequency:2.42506e+009
+Îó²î :58.397 KHZ
+======================ÉèÖÃ Tune [0xe6]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xe6 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9932,frequency:2.42506e+009
+Îó²î :58.397 KHZ
+======================ÉèÖÃ Tune [0xe7]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xe7 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9971,frequency:2.42506e+009
+Îó²î :58.397 KHZ
+======================ÉèÖÃ Tune [0xe8]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xe8 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9952,frequency:2.42506e+009
+Îó²î :58.397 KHZ
+======================ÉèÖÃ Tune [0xe9]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xe9 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9957,frequency:2.42506e+009
+Îó²î :58.397 KHZ
+======================ÉèÖÃ Tune [0xea]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xea --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9945,frequency:2.42505e+009
+Îó²î :54.23 KHZ
+======================ÉèÖÃ Tune [0xeb]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xeb --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.997,frequency:2.42505e+009
+Îó²î :54.23 KHZ
+======================ÉèÖÃ Tune [0xec]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xec --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0023,frequency:2.42505e+009
+Îó²î :54.23 KHZ
+======================ÉèÖÃ Tune [0xed]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xed --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9918,frequency:2.42505e+009
+Îó²î :50.064 KHZ
+======================ÉèÖÃ Tune [0xee]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xee --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0037,frequency:2.42505e+009
+Îó²î :50.064 KHZ
+======================ÉèÖÃ Tune [0xef]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xef --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0553,frequency:2.42505e+009
+Îó²î :50.064 KHZ
+======================ÉèÖÃ Tune [0xf0]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xf0 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0786,frequency:2.42505e+009
+Îó²î :50.064 KHZ
+======================ÉèÖÃ Tune [0xf1]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xf1 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0267,frequency:2.42505e+009
+Îó²î :45.897 KHZ
+======================ÉèÖÃ Tune [0xf2]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xf2 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0231,frequency:2.42505e+009
+Îó²î :45.897 KHZ
+======================ÉèÖÃ Tune [0xf3]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xf3 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0444,frequency:2.42505e+009
+Îó²î :45.897 KHZ
+======================ÉèÖÃ Tune [0xf4]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xf4 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0505,frequency:2.42505e+009
+Îó²î :45.897 KHZ
+======================ÉèÖÃ Tune [0xf5]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xf5 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.045,frequency:2.42505e+009
+Îó²î :45.897 KHZ
+======================ÉèÖÃ Tune [0xf6]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xf6 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0515,frequency:2.42505e+009
+Îó²î :45.897 KHZ
+======================ÉèÖÃ Tune [0xf7]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xf7 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0566,frequency:2.42505e+009
+Îó²î :45.897 KHZ
+======================ÉèÖÃ Tune [0xf8]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xf8 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0565,frequency:2.42504e+009
+Îó²î :41.73 KHZ
+======================ÉèÖÃ Tune [0xf9]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xf9 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0599,frequency:2.42504e+009
+Îó²î :41.73 KHZ
+======================ÉèÖÃ Tune [0xfa]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xfa --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0569,frequency:2.42504e+009
+Îó²î :41.73 KHZ
+======================ÉèÖÃ Tune [0xfb]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xfb --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0634,frequency:2.42504e+009
+Îó²î :41.73 KHZ
+======================ÉèÖÃ Tune [0xfc]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xfc --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0636,frequency:2.42504e+009
+Îó²î :37.564 KHZ
+======================ÉèÖÃ Tune [0xfd]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xfd --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.063,frequency:2.42504e+009
+Îó²î :37.564 KHZ
+======================ÉèÖÃ Tune [0xfe]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xfe --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0599,frequency:2.42504e+009
+Îó²î :37.564 KHZ
+======================ÉèÖÃ Tune [0xff]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0xff --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0601,frequency:2.42504e+009
+Îó²î :37.564 KHZ
+======================ÉèÖÃ Tune [0x100]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x100 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.068,frequency:2.42504e+009
+Îó²î :37.564 KHZ
+======================ÉèÖÃ Tune [0x101]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x101 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0518,frequency:2.42504e+009
+Îó²î :37.564 KHZ
+======================ÉèÖÃ Tune [0x102]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x102 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0537,frequency:2.42504e+009
+Îó²î :37.564 KHZ
+======================ÉèÖÃ Tune [0x103]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x103 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0582,frequency:2.42504e+009
+Îó²î :37.564 KHZ
+======================ÉèÖÃ Tune [0x104]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x104 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0563,frequency:2.42504e+009
+Îó²î :37.564 KHZ
+======================ÉèÖÃ Tune [0x105]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x105 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0529,frequency:2.42504e+009
+Îó²î :37.564 KHZ
+======================ÉèÖÃ Tune [0x106]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x106 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0636,frequency:2.42503e+009
+Îó²î :33.397 KHZ
+======================ÉèÖÃ Tune [0x107]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x107 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0655,frequency:2.42503e+009
+Îó²î :33.397 KHZ
+======================ÉèÖÃ Tune [0x108]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x108 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0636,frequency:2.42503e+009
+Îó²î :33.397 KHZ
+======================ÉèÖÃ Tune [0x109]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x109 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0603,frequency:2.42503e+009
+Îó²î :33.397 KHZ
+======================ÉèÖÃ Tune [0x10a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x10a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0649,frequency:2.42503e+009
+Îó²î :29.23 KHZ
+======================ÉèÖÃ Tune [0x10b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x10b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0649,frequency:2.42503e+009
+Îó²î :29.23 KHZ
+======================ÉèÖÃ Tune [0x10c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x10c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.069,frequency:2.42503e+009
+Îó²î :29.23 KHZ
+======================ÉèÖÃ Tune [0x10d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x10d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0712,frequency:2.42503e+009
+Îó²î :29.23 KHZ
+======================ÉèÖÃ Tune [0x10e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x10e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0709,frequency:2.42503e+009
+Îó²î :29.23 KHZ
+======================ÉèÖÃ Tune [0x10f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x10f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0687,frequency:2.42503e+009
+Îó²î :25.064 KHZ
+======================ÉèÖÃ Tune [0x110]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x110 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0587,frequency:2.42503e+009
+Îó²î :25.064 KHZ
+======================ÉèÖÃ Tune [0x111]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x111 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0608,frequency:2.42503e+009
+Îó²î :25.064 KHZ
+======================ÉèÖÃ Tune [0x112]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x112 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.064,frequency:2.42503e+009
+Îó²î :25.064 KHZ
+======================ÉèÖÃ Tune [0x113]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x113 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0596,frequency:2.42503e+009
+Îó²î :25.064 KHZ
+======================ÉèÖÃ Tune [0x114]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x114 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0632,frequency:2.42503e+009
+Îó²î :25.064 KHZ
+======================ÉèÖÃ Tune [0x115]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x115 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0594,frequency:2.42503e+009
+Îó²î :25.064 KHZ
+======================ÉèÖÃ Tune [0x116]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x116 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0544,frequency:2.42503e+009
+Îó²î :25.064 KHZ
+======================ÉèÖÃ Tune [0x117]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x117 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0559,frequency:2.42502e+009
+Îó²î :20.897 KHZ
+======================ÉèÖÃ Tune [0x118]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x118 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0595,frequency:2.42502e+009
+Îó²î :20.897 KHZ
+======================ÉèÖÃ Tune [0x119]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x119 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0655,frequency:2.42502e+009
+Îó²î :20.897 KHZ
+======================ÉèÖÃ Tune [0x11a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x11a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0634,frequency:2.42502e+009
+Îó²î :20.897 KHZ
+======================ÉèÖÃ Tune [0x11b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x11b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0608,frequency:2.42502e+009
+Îó²î :20.897 KHZ
+======================ÉèÖÃ Tune [0x11c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x11c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0617,frequency:2.42502e+009
+Îó²î :16.73 KHZ
+======================ÉèÖÃ Tune [0x11d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x11d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0654,frequency:2.42502e+009
+Îó²î :16.73 KHZ
+======================ÉèÖÃ Tune [0x11e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x11e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0726,frequency:2.42502e+009
+Îó²î :16.73 KHZ
+======================ÉèÖÃ Tune [0x11f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x11f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0724,frequency:2.42502e+009
+Îó²î :16.73 KHZ
+======================ÉèÖÃ Tune [0x120]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x120 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0715,frequency:2.42501e+009
+Îó²î :12.564 KHZ
+======================ÉèÖÃ Tune [0x121]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x121 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0711,frequency:2.42501e+009
+Îó²î :12.564 KHZ
+======================ÉèÖÃ Tune [0x122]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x122 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0779,frequency:2.42501e+009
+Îó²î :12.564 KHZ
+======================ÉèÖÃ Tune [0x123]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x123 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0818,frequency:2.42501e+009
+Îó²î :12.564 KHZ
+======================ÉèÖÃ Tune [0x124]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x124 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0695,frequency:2.42501e+009
+Îó²î :12.564 KHZ
+======================ÉèÖÃ Tune [0x125]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x125 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0642,frequency:2.42501e+009
+Îó²î :12.564 KHZ
+======================ÉèÖÃ Tune [0x126]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x126 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0703,frequency:2.42501e+009
+Îó²î :12.564 KHZ
+======================ÉèÖÃ Tune [0x127]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x127 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0632,frequency:2.42501e+009
+Îó²î :12.564 KHZ
+======================ÉèÖÃ Tune [0x128]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x128 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0624,frequency:2.42501e+009
+Îó²î :8.397 KHZ
+======================ÉèÖÃ Tune [0x129]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x129 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0622,frequency:2.42501e+009
+Îó²î :8.397 KHZ
+======================ÉèÖÃ Tune [0x12a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x12a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0593,frequency:2.42501e+009
+Îó²î :8.397 KHZ
+======================ÉèÖÃ Tune [0x12b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x12b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0674,frequency:2.42501e+009
+Îó²î :8.397 KHZ
+======================ÉèÖÃ Tune [0x12c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x12c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0634,frequency:2.42501e+009
+Îó²î :8.397 KHZ
+======================ÉèÖÃ Tune [0x12d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x12d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0646,frequency:2.425e+009
+Îó²î :4.23 KHZ
+======================ÉèÖÃ Tune [0x12e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x12e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0687,frequency:2.425e+009
+Îó²î :4.23 KHZ
+======================ÉèÖÃ Tune [0x12f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x12f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0658,frequency:2.425e+009
+Îó²î :4.23 KHZ
+======================ÉèÖÃ Tune [0x130]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x130 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0644,frequency:2.425e+009
+Îó²î :4.23 KHZ
+======================ÉèÖÃ Tune [0x131]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x131 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0597,frequency:2.425e+009
+Îó²î :4.23 KHZ
+======================ÉèÖÃ Tune [0x132]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x132 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0628,frequency:2.425e+009
+Îó²î :4.23 KHZ
+======================ÉèÖÃ Tune [0x133]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x133 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0561,frequency:2.425e+009
+Îó²î :4.23 KHZ
+======================ÉèÖÃ Tune [0x134]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x134 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0605,frequency:2.425e+009
+Îó²î :4.23 KHZ
+======================ÉèÖÃ Tune [0x135]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x135 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0551,frequency:2.425e+009
+Îó²î :4.23 KHZ
+======================ÉèÖÃ Tune [0x136]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x136 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0523,frequency:2.425e+009
+Îó²î :0.064 KHZ
+======================ÉèÖÃ Tune [0x137]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x137 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0608,frequency:2.425e+009
+Îó²î :4.23 KHZ
+======================ÉèÖÃ Tune [0x138]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x138 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0599,frequency:2.425e+009
+Îó²î :0.064 KHZ
+======================ÉèÖÃ Tune [0x139]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x139 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0557,frequency:2.425e+009
+Îó²î :0.064 KHZ
+======================ÉèÖÃ Tune [0x13a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x13a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.052,frequency:2.425e+009
+Îó²î :0.064 KHZ
+======================ÉèÖÃ Tune [0x13b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x13b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0524,frequency:2.425e+009
+Îó²î :0.064 KHZ
+======================ÉèÖÃ Tune [0x13c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x13c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0515,frequency:2.425e+009
+Îó²î :0.064 KHZ
+======================ÉèÖÃ Tune [0x13d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x13d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0552,frequency:2.425e+009
+Îó²î :0.064 KHZ
+======================ÉèÖÃ Tune [0x13e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x13e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0627,frequency:2.425e+009
+Îó²î :-4.103 KHZ
+======================ÉèÖÃ Tune [0x13f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x13f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0642,frequency:2.425e+009
+Îó²î :-4.103 KHZ
+======================ÉèÖÃ Tune [0x140]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x140 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0627,frequency:2.425e+009
+Îó²î :-4.103 KHZ
+======================ÉèÖÃ Tune [0x141]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x141 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0644,frequency:2.425e+009
+Îó²î :-4.103 KHZ
+======================ÉèÖÃ Tune [0x142]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x142 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0429,frequency:2.425e+009
+Îó²î :-4.103 KHZ
+======================ÉèÖÃ Tune [0x143]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x143 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0364,frequency:2.42499e+009
+Îó²î :-8.27 KHZ
+======================ÉèÖÃ Tune [0x144]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x144 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0449,frequency:2.42499e+009
+Îó²î :-8.27 KHZ
+======================ÉèÖÃ Tune [0x145]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x145 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.04,frequency:2.42499e+009
+Îó²î :-8.27 KHZ
+======================ÉèÖÃ Tune [0x146]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x146 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0171,frequency:2.42499e+009
+Îó²î :-8.27 KHZ
+======================ÉèÖÃ Tune [0x147]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x147 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0163,frequency:2.42499e+009
+Îó²î :-8.27 KHZ
+======================ÉèÖÃ Tune [0x148]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x148 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0159,frequency:2.42499e+009
+Îó²î :-8.27 KHZ
+======================ÉèÖÃ Tune [0x149]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x149 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0165,frequency:2.42499e+009
+Îó²î :-8.27 KHZ
+======================ÉèÖÃ Tune [0x14a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x14a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0082,frequency:2.42499e+009
+Îó²î :-8.27 KHZ
+======================ÉèÖÃ Tune [0x14b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x14b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0088,frequency:2.42499e+009
+Îó²î :-8.27 KHZ
+======================ÉèÖÃ Tune [0x14c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x14c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0206,frequency:2.42499e+009
+Îó²î :-8.27 KHZ
+======================ÉèÖÃ Tune [0x14d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x14d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0147,frequency:2.42499e+009
+Îó²î :-12.436 KHZ
+======================ÉèÖÃ Tune [0x14e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x14e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0148,frequency:2.42499e+009
+Îó²î :-12.436 KHZ
+======================ÉèÖÃ Tune [0x14f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x14f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0199,frequency:2.42499e+009
+Îó²î :-12.436 KHZ
+======================ÉèÖÃ Tune [0x150]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x150 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0281,frequency:2.42499e+009
+Îó²î :-12.436 KHZ
+======================ÉèÖÃ Tune [0x151]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x151 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0199,frequency:2.42499e+009
+Îó²î :-12.436 KHZ
+======================ÉèÖÃ Tune [0x152]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x152 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.025,frequency:2.42498e+009
+Îó²î :-16.603 KHZ
+======================ÉèÖÃ Tune [0x153]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x153 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0263,frequency:2.42498e+009
+Îó²î :-16.603 KHZ
+======================ÉèÖÃ Tune [0x154]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x154 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0264,frequency:2.42498e+009
+Îó²î :-16.603 KHZ
+======================ÉèÖÃ Tune [0x155]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x155 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0251,frequency:2.42498e+009
+Îó²î :-16.603 KHZ
+======================ÉèÖÃ Tune [0x156]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x156 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0244,frequency:2.42498e+009
+Îó²î :-16.603 KHZ
+======================ÉèÖÃ Tune [0x157]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x157 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0284,frequency:2.42498e+009
+Îó²î :-16.603 KHZ
+======================ÉèÖÃ Tune [0x158]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x158 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0295,frequency:2.42498e+009
+Îó²î :-16.603 KHZ
+======================ÉèÖÃ Tune [0x159]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x159 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0246,frequency:2.42498e+009
+Îó²î :-16.603 KHZ
+======================ÉèÖÃ Tune [0x15a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x15a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0333,frequency:2.42498e+009
+Îó²î :-16.603 KHZ
+======================ÉèÖÃ Tune [0x15b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x15b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0266,frequency:2.42498e+009
+Îó²î :-16.603 KHZ
+======================ÉèÖÃ Tune [0x15c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x15c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0238,frequency:2.42498e+009
+Îó²î :-16.603 KHZ
+======================ÉèÖÃ Tune [0x15d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x15d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0195,frequency:2.42498e+009
+Îó²î :-20.77 KHZ
+======================ÉèÖÃ Tune [0x15e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x15e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0253,frequency:2.42498e+009
+Îó²î :-20.77 KHZ
+======================ÉèÖÃ Tune [0x15f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x15f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0257,frequency:2.42498e+009
+Îó²î :-20.77 KHZ
+======================ÉèÖÃ Tune [0x160]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x160 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0319,frequency:2.42498e+009
+Îó²î :-20.77 KHZ
+======================ÉèÖÃ Tune [0x161]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x161 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0304,frequency:2.42498e+009
+Îó²î :-20.77 KHZ
+======================ÉèÖÃ Tune [0x162]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x162 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0292,frequency:2.42498e+009
+Îó²î :-20.77 KHZ
+======================ÉèÖÃ Tune [0x163]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x163 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0279,frequency:2.42498e+009
+Îó²î :-24.936 KHZ
+======================ÉèÖÃ Tune [0x164]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x164 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0375,frequency:2.42498e+009
+Îó²î :-24.936 KHZ
+======================ÉèÖÃ Tune [0x165]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x165 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0337,frequency:2.42498e+009
+Îó²î :-24.936 KHZ
+======================ÉèÖÃ Tune [0x166]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x166 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0409,frequency:2.42498e+009
+Îó²î :-24.936 KHZ
+======================ÉèÖÃ Tune [0x167]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x167 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0324,frequency:2.42498e+009
+Îó²î :-24.936 KHZ
+======================ÉèÖÃ Tune [0x168]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x168 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.028,frequency:2.42498e+009
+Îó²î :-24.936 KHZ
+======================ÉèÖÃ Tune [0x169]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x169 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.026,frequency:2.42497e+009
+Îó²î :-29.103 KHZ
+======================ÉèÖÃ Tune [0x16a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x16a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0304,frequency:2.42497e+009
+Îó²î :-29.103 KHZ
+======================ÉèÖÃ Tune [0x16b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x16b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0294,frequency:2.42497e+009
+Îó²î :-29.103 KHZ
+======================ÉèÖÃ Tune [0x16c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x16c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0261,frequency:2.42497e+009
+Îó²î :-29.103 KHZ
+======================ÉèÖÃ Tune [0x16d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x16d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0216,frequency:2.42497e+009
+Îó²î :-29.103 KHZ
+======================ÉèÖÃ Tune [0x16e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x16e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.984,frequency:2.42497e+009
+Îó²î :-29.103 KHZ
+======================ÉèÖÃ Tune [0x16f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x16f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9919,frequency:2.42497e+009
+Îó²î :-29.103 KHZ
+======================ÉèÖÃ Tune [0x170]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x170 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9902,frequency:2.42497e+009
+Îó²î :-29.103 KHZ
+======================ÉèÖÃ Tune [0x171]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x171 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9935,frequency:2.42497e+009
+Îó²î :-29.103 KHZ
+======================ÉèÖÃ Tune [0x172]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x172 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0021,frequency:2.42497e+009
+Îó²î :-29.103 KHZ
+======================ÉèÖÃ Tune [0x173]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x173 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9957,frequency:2.42497e+009
+Îó²î :-29.103 KHZ
+======================ÉèÖÃ Tune [0x174]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x174 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0001,frequency:2.42497e+009
+Îó²î :-29.103 KHZ
+======================ÉèÖÃ Tune [0x175]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x175 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0023,frequency:2.42497e+009
+Îó²î :-29.103 KHZ
+======================ÉèÖÃ Tune [0x176]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x176 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0046,frequency:2.42497e+009
+Îó²î :-33.27 KHZ
+======================ÉèÖÃ Tune [0x177]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x177 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0043,frequency:2.42497e+009
+Îó²î :-33.27 KHZ
+======================ÉèÖÃ Tune [0x178]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x178 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0002,frequency:2.42497e+009
+Îó²î :-33.27 KHZ
+======================ÉèÖÃ Tune [0x179]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x179 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0118,frequency:2.42497e+009
+Îó²î :-33.27 KHZ
+======================ÉèÖÃ Tune [0x17a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x17a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9986,frequency:2.42497e+009
+Îó²î :-33.27 KHZ
+======================ÉèÖÃ Tune [0x17b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x17b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0049,frequency:2.42497e+009
+Îó²î :-33.27 KHZ
+======================ÉèÖÃ Tune [0x17c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x17c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0092,frequency:2.42496e+009
+Îó²î :-37.436 KHZ
+======================ÉèÖÃ Tune [0x17d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x17d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0068,frequency:2.42496e+009
+Îó²î :-37.436 KHZ
+======================ÉèÖÃ Tune [0x17e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x17e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0035,frequency:2.42496e+009
+Îó²î :-37.436 KHZ
+======================ÉèÖÃ Tune [0x17f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x17f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0092,frequency:2.42496e+009
+Îó²î :-37.436 KHZ
+======================ÉèÖÃ Tune [0x180]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x180 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0064,frequency:2.42496e+009
+Îó²î :-37.436 KHZ
+======================ÉèÖÃ Tune [0x181]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x181 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0148,frequency:2.42496e+009
+Îó²î :-37.436 KHZ
+======================ÉèÖÃ Tune [0x182]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x182 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0134,frequency:2.42496e+009
+Îó²î :-41.603 KHZ
+======================ÉèÖÃ Tune [0x183]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x183 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0094,frequency:2.42496e+009
+Îó²î :-41.603 KHZ
+======================ÉèÖÃ Tune [0x184]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x184 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0179,frequency:2.42496e+009
+Îó²î :-41.603 KHZ
+======================ÉèÖÃ Tune [0x185]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x185 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0142,frequency:2.42496e+009
+Îó²î :-41.603 KHZ
+======================ÉèÖÃ Tune [0x186]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x186 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0148,frequency:2.42496e+009
+Îó²î :-41.603 KHZ
+======================ÉèÖÃ Tune [0x187]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x187 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0154,frequency:2.42496e+009
+Îó²î :-41.603 KHZ
+======================ÉèÖÃ Tune [0x188]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x188 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0143,frequency:2.42496e+009
+Îó²î :-41.603 KHZ
+======================ÉèÖÃ Tune [0x189]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x189 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.024,frequency:2.42496e+009
+Îó²î :-41.603 KHZ
+======================ÉèÖÃ Tune [0x18a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x18a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.024,frequency:2.42496e+009
+Îó²î :-41.603 KHZ
+======================ÉèÖÃ Tune [0x18b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x18b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0222,frequency:2.42496e+009
+Îó²î :-41.603 KHZ
+======================ÉèÖÃ Tune [0x18c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x18c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0245,frequency:2.42496e+009
+Îó²î :-41.603 KHZ
+======================ÉèÖÃ Tune [0x18d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x18d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0278,frequency:2.42496e+009
+Îó²î :-41.603 KHZ
+======================ÉèÖÃ Tune [0x18e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x18e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0261,frequency:2.42496e+009
+Îó²î :-41.603 KHZ
+======================ÉèÖÃ Tune [0x18f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x18f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0182,frequency:2.42496e+009
+Îó²î :-41.603 KHZ
+======================ÉèÖÃ Tune [0x190]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x190 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0198,frequency:2.42495e+009
+Îó²î :-45.77 KHZ
+======================ÉèÖÃ Tune [0x191]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x191 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.018,frequency:2.42495e+009
+Îó²î :-45.77 KHZ
+======================ÉèÖÃ Tune [0x192]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x192 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0284,frequency:2.42495e+009
+Îó²î :-45.77 KHZ
+======================ÉèÖÃ Tune [0x193]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x193 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.015,frequency:2.42495e+009
+Îó²î :-45.77 KHZ
+======================ÉèÖÃ Tune [0x194]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x194 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0196,frequency:2.42495e+009
+Îó²î :-45.77 KHZ
+======================ÉèÖÃ Tune [0x195]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x195 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0192,frequency:2.42495e+009
+Îó²î :-49.936 KHZ
+======================ÉèÖÃ Tune [0x196]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x196 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0192,frequency:2.42495e+009
+Îó²î :-49.936 KHZ
+======================ÉèÖÃ Tune [0x197]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x197 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0218,frequency:2.42495e+009
+Îó²î :-49.936 KHZ
+======================ÉèÖÃ Tune [0x198]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x198 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0287,frequency:2.42495e+009
+Îó²î :-49.936 KHZ
+======================ÉèÖÃ Tune [0x199]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x199 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0243,frequency:2.42495e+009
+Îó²î :-49.936 KHZ
+======================ÉèÖÃ Tune [0x19a]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x19a --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0203,frequency:2.42495e+009
+Îó²î :-49.936 KHZ
+======================ÉèÖÃ Tune [0x19b]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x19b --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0261,frequency:2.42495e+009
+Îó²î :-49.936 KHZ
+======================ÉèÖÃ Tune [0x19c]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x19c --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0234,frequency:2.42495e+009
+Îó²î :-49.936 KHZ
+======================ÉèÖÃ Tune [0x19d]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x19d --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0239,frequency:2.42495e+009
+Îó²î :-49.936 KHZ
+======================ÉèÖÃ Tune [0x19e]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x19e --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0196,frequency:2.42495e+009
+Îó²î :-49.936 KHZ
+======================ÉèÖÃ Tune [0x19f]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x19f --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0005,frequency:2.42495e+009
+Îó²î :-49.936 KHZ
+======================ÉèÖÃ Tune [0x1a0]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1a0 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0004,frequency:2.42495e+009
+Îó²î :-49.936 KHZ
+======================ÉèÖÃ Tune [0x1a1]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1a1 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 14.0116,frequency:2.42495e+009
+Îó²î :-49.936 KHZ
+======================ÉèÖÃ Tune [0x1a2]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1a2 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.8498,frequency:2.42495e+009
+Îó²î :-49.936 KHZ
+======================ÉèÖÃ Tune [0x1a3]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1a3 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.8654,frequency:2.42495e+009
+Îó²î :-49.936 KHZ
+======================ÉèÖÃ Tune [0x1a4]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1a4 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.8895,frequency:2.42495e+009
+Îó²î :-49.936 KHZ
+======================ÉèÖÃ Tune [0x1a5]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1a5 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.8855,frequency:2.42495e+009
+Îó²î :-54.103 KHZ
+======================ÉèÖÃ Tune [0x1a6]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1a6 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.8822,frequency:2.42495e+009
+Îó²î :-54.103 KHZ
+======================ÉèÖÃ Tune [0x1a7]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1a7 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.8805,frequency:2.42495e+009
+Îó²î :-54.103 KHZ
+======================ÉèÖÃ Tune [0x1a8]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1a8 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.882,frequency:2.42495e+009
+Îó²î :-54.103 KHZ
+======================ÉèÖÃ Tune [0x1a9]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1a9 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.8599,frequency:2.42495e+009
+Îó²î :-54.103 KHZ
+======================ÉèÖÃ Tune [0x1aa]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1aa --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.8834,frequency:2.42495e+009
+Îó²î :-54.103 KHZ
+======================ÉèÖÃ Tune [0x1ab]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1ab --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.8947,frequency:2.42495e+009
+Îó²î :-54.103 KHZ
+======================ÉèÖÃ Tune [0x1ac]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1ac --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.8988,frequency:2.42494e+009
+Îó²î :-58.27 KHZ
+======================ÉèÖÃ Tune [0x1ad]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1ad --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.915,frequency:2.42494e+009
+Îó²î :-58.27 KHZ
+======================ÉèÖÃ Tune [0x1ae]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1ae --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9036,frequency:2.42494e+009
+Îó²î :-58.27 KHZ
+======================ÉèÖÃ Tune [0x1af]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1af --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9144,frequency:2.42494e+009
+Îó²î :-58.27 KHZ
+======================ÉèÖÃ Tune [0x1b0]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1b0 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9149,frequency:2.42494e+009
+Îó²î :-58.27 KHZ
+======================ÉèÖÃ Tune [0x1b1]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1b1 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9183,frequency:2.42494e+009
+Îó²î :-58.27 KHZ
+======================ÉèÖÃ Tune [0x1b2]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1b2 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.926,frequency:2.42494e+009
+Îó²î :-58.27 KHZ
+======================ÉèÖÃ Tune [0x1b3]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1b3 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9264,frequency:2.42494e+009
+Îó²î :-62.436 KHZ
+======================ÉèÖÃ Tune [0x1b4]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1b4 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.929,frequency:2.42494e+009
+Îó²î :-62.436 KHZ
+======================ÉèÖÃ Tune [0x1b5]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1b5 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9247,frequency:2.42494e+009
+Îó²î :-62.436 KHZ
+======================ÉèÖÃ Tune [0x1b6]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1b6 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9209,frequency:2.42494e+009
+Îó²î :-62.436 KHZ
+======================ÉèÖÃ Tune [0x1b7]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1b7 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9177,frequency:2.42494e+009
+Îó²î :-62.436 KHZ
+======================ÉèÖÃ Tune [0x1b8]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1b8 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9274,frequency:2.42494e+009
+Îó²î :-62.436 KHZ
+======================ÉèÖÃ Tune [0x1b9]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1b9 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9279,frequency:2.42494e+009
+Îó²î :-62.436 KHZ
+======================ÉèÖÃ Tune [0x1ba]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1ba --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9211,frequency:2.42494e+009
+Îó²î :-62.436 KHZ
+======================ÉèÖÃ Tune [0x1bb]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1bb --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9224,frequency:2.42494e+009
+Îó²î :-62.436 KHZ
+======================ÉèÖÃ Tune [0x1bc]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1bc --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9232,frequency:2.42494e+009
+Îó²î :-62.436 KHZ
+======================ÉèÖÃ Tune [0x1bd]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1bd --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9212,frequency:2.42494e+009
+Îó²î :-62.436 KHZ
+======================ÉèÖÃ Tune [0x1be]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1be --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9303,frequency:2.42494e+009
+Îó²î :-62.436 KHZ
+======================ÉèÖÃ Tune [0x1bf]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1bf --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9264,frequency:2.42494e+009
+Îó²î :-62.436 KHZ
+======================ÉèÖÃ Tune [0x1c0]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1c0 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9286,frequency:2.42494e+009
+Îó²î :-62.436 KHZ
+======================ÉèÖÃ Tune [0x1c1]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1c1 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9316,frequency:2.42493e+009
+Îó²î :-66.603 KHZ
+======================ÉèÖÃ Tune [0x1c2]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1c2 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9248,frequency:2.42493e+009
+Îó²î :-66.603 KHZ
+======================ÉèÖÃ Tune [0x1c3]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1c3 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.932,frequency:2.42493e+009
+Îó²î :-66.603 KHZ
+======================ÉèÖÃ Tune [0x1c4]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1c4 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9321,frequency:2.42493e+009
+Îó²î :-66.603 KHZ
+======================ÉèÖÃ Tune [0x1c5]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1c5 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9343,frequency:2.42493e+009
+Îó²î :-66.603 KHZ
+======================ÉèÖÃ Tune [0x1c6]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1c6 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9335,frequency:2.42493e+009
+Îó²î :-66.603 KHZ
+======================ÉèÖÃ Tune [0x1c7]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1c7 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9403,frequency:2.42493e+009
+Îó²î :-66.603 KHZ
+======================ÉèÖÃ Tune [0x1c8]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1c8 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9364,frequency:2.42493e+009
+Îó²î :-66.603 KHZ
+======================ÉèÖÃ Tune [0x1c9]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1c9 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9339,frequency:2.42493e+009
+Îó²î :-66.603 KHZ
+======================ÉèÖÃ Tune [0x1ca]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1ca --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9338,frequency:2.42493e+009
+Îó²î :-66.603 KHZ
+======================ÉèÖÃ Tune [0x1cb]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1cb --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9265,frequency:2.42493e+009
+Îó²î :-66.603 KHZ
+======================ÉèÖÃ Tune [0x1cc]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1cc --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9303,frequency:2.42493e+009
+Îó²î :-70.77 KHZ
+======================ÉèÖÃ Tune [0x1cd]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1cd --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9235,frequency:2.42493e+009
+Îó²î :-70.77 KHZ
+======================ÉèÖÃ Tune [0x1ce]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1ce --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9391,frequency:2.42493e+009
+Îó²î :-70.77 KHZ
+======================ÉèÖÃ Tune [0x1cf]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1cf --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9281,frequency:2.42493e+009
+Îó²î :-70.77 KHZ
+======================ÉèÖÃ Tune [0x1d0]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1d0 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9374,frequency:2.42493e+009
+Îó²î :-70.77 KHZ
+======================ÉèÖÃ Tune [0x1d1]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1d1 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9397,frequency:2.42493e+009
+Îó²î :-70.77 KHZ
+======================ÉèÖÃ Tune [0x1d2]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1d2 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9432,frequency:2.42493e+009
+Îó²î :-70.77 KHZ
+======================ÉèÖÃ Tune [0x1d3]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1d3 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9359,frequency:2.42493e+009
+Îó²î :-70.77 KHZ
+======================ÉèÖÃ Tune [0x1d4]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1d4 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9345,frequency:2.42493e+009
+Îó²î :-70.77 KHZ
+======================ÉèÖÃ Tune [0x1d5]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1d5 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9365,frequency:2.42493e+009
+Îó²î :-70.77 KHZ
+======================ÉèÖÃ Tune [0x1d6]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1d6 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9398,frequency:2.42493e+009
+Îó²î :-70.77 KHZ
+======================ÉèÖÃ Tune [0x1d7]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1d7 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9357,frequency:2.42493e+009
+Îó²î :-70.77 KHZ
+======================ÉèÖÃ Tune [0x1d8]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1d8 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9332,frequency:2.42493e+009
+Îó²î :-70.77 KHZ
+======================ÉèÖÃ Tune [0x1d9]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1d9 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9331,frequency:2.42493e+009
+Îó²î :-70.77 KHZ
+======================ÉèÖÃ Tune [0x1da]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1da --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.934,frequency:2.42493e+009
+Îó²î :-70.77 KHZ
+======================ÉèÖÃ Tune [0x1db]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1db --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9328,frequency:2.42493e+009
+Îó²î :-70.77 KHZ
+======================ÉèÖÃ Tune [0x1dc]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1dc --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9382,frequency:2.42493e+009
+Îó²î :-74.936 KHZ
+======================ÉèÖÃ Tune [0x1dd]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1dd --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9353,frequency:2.42493e+009
+Îó²î :-74.936 KHZ
+======================ÉèÖÃ Tune [0x1de]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1de --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9361,frequency:2.42493e+009
+Îó²î :-74.936 KHZ
+======================ÉèÖÃ Tune [0x1df]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1df --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9345,frequency:2.42493e+009
+Îó²î :-74.936 KHZ
+======================ÉèÖÃ Tune [0x1e0]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1e0 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9407,frequency:2.42493e+009
+Îó²î :-74.936 KHZ
+======================ÉèÖÃ Tune [0x1e1]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1e1 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9368,frequency:2.42493e+009
+Îó²î :-74.936 KHZ
+======================ÉèÖÃ Tune [0x1e2]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1e2 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9354,frequency:2.42493e+009
+Îó²î :-74.936 KHZ
+======================ÉèÖÃ Tune [0x1e3]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1e3 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9473,frequency:2.42492e+009
+Îó²î :-79.103 KHZ
+======================ÉèÖÃ Tune [0x1e4]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1e4 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9434,frequency:2.42492e+009
+Îó²î :-79.103 KHZ
+======================ÉèÖÃ Tune [0x1e5]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1e5 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.945,frequency:2.42492e+009
+Îó²î :-79.103 KHZ
+======================ÉèÖÃ Tune [0x1e6]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1e6 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9473,frequency:2.42492e+009
+Îó²î :-79.103 KHZ
+======================ÉèÖÃ Tune [0x1e7]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1e7 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9472,frequency:2.42492e+009
+Îó²î :-79.103 KHZ
+======================ÉèÖÃ Tune [0x1e8]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1e8 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9433,frequency:2.42492e+009
+Îó²î :-79.103 KHZ
+======================ÉèÖÃ Tune [0x1e9]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1e9 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9373,frequency:2.42492e+009
+Îó²î :-79.103 KHZ
+======================ÉèÖÃ Tune [0x1ea]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1ea --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9393,frequency:2.42492e+009
+Îó²î :-79.103 KHZ
+======================ÉèÖÃ Tune [0x1eb]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1eb --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9548,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1ec]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1ec --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9453,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1ed]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1ed --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9497,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1ee]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1ee --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9484,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1ef]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1ef --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9491,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1f0]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1f0 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9491,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1f1]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1f1 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9524,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1f2]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1f2 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9544,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1f3]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1f3 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9527,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1f4]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1f4 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9537,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1f5]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1f5 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9472,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1f6]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1f6 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9499,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1f7]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1f7 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9584,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1f8]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1f8 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9476,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1f9]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1f9 --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9528,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1fa]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1fa --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9578,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1fb]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1fb --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9531,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1fc]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1fc --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9481,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1fd]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1fd --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9466,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+======================ÉèÖÃ Tune [0x1fe]======================
+cmd.exe /c .\commander\commander.exe flash --tokengroup znet --token TOKEN_MFG_CTUNE:0x1fe --device efr32mg1 > .\tune_out.txt
+[FE] [08] [02] [00] [00] [0A] 
+power : 13.9559,frequency:2.42492e+009
+Îó²î :-83.27 KHZ
+f:/work/project/project/LTE4G/src/gwtest $ 
