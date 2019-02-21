@@ -1,8 +1,8 @@
 Reconfiguring debug connection with detected device part number: EFR32MG1B232F256GM32
 Part Number    : EFR32MG1B232F256GM32
 Die Revision   : @0
-Production Ver : 157
+Production Ver : 152
 Flash Size     : 256 kB
 SRAM Size      : 32 kB
-Unique ID      : d0cf5efffe3bed09
+Unique ID      : 000b57fffe542dfb
 DONE
