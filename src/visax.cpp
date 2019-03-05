@@ -114,7 +114,7 @@ bool RigolSpectrum::ReadInstrument(string strCmd, string &strOut) {
   
   strOut = buf;
 
-  //cout << strOut << endl;
+  cout << strOut << endl;
   return true;
 }
 bool RigolSpectrum::WriteInstrument(string strCmd) {

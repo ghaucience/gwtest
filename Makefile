@@ -2,7 +2,7 @@ ROOTDIR	=$(shell pwd)
 WORKDIR	=$(ROOTDIR)/build
 
 VERSION	:= 1.0.9
-targets	+= DSI0134Test_$(VERSION).exe
+targets	+= DSIXXXXTest_$(VERSION).exe
 
 .PHONY: targets
 
@@ -27,7 +27,7 @@ objs		+= $(ROOTDIR)/build/res.res
 -include $(ROOTDIR)/make/arch.mk
 -include $(ROOTDIR)/make/rules.mk
 
-$(eval $(call LinkApp,DSI0134Test_$(VERSION).exe,$(objs)))
+$(eval $(call LinkApp,DSIXXXXTest_$(VERSION).exe,$(objs)))
 
 run:
-	$(ROOTDIR)/build/DSI0134Test_$(VERSION).exe
+	$(ROOTDIR)\build\DSIXXXXTest_$(VERSION).exe

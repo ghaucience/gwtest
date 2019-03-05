@@ -1,0 +1,5 @@
+Reconfiguring debug connection with detected device part number: EFR32MG1B232F256GM32
+WARNING: Could not connect to target device
+ERROR: Could not connect debugger.
+ERROR: Can not write tokens when MCU information is unavailable.
+DONE
