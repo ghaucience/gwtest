@@ -31,3 +31,6 @@ $(eval $(call LinkApp,DSIXXXXTest_$(VERSION).exe,$(objs)))
 
 run:
 	$(ROOTDIR)\build\DSIXXXXTest_$(VERSION).exe
+
+echo :
+	echo --------

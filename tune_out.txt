@@ -1,7 +1,6 @@
-Reconfiguring debug connection with detected device part number: EFR32MG1B232F256GM32
-Writing 2048 bytes starting at address 0x0fe00000
-Comparing range 0x0FE00000 - 0x0FE007FF (2 KB)
-Erasing range 0x0FE00000 - 0x0FE007FF (1 sector, 2 KB)
-Programming range 0x0FE00000 - 0x0FE0011F (288 Bytes)
-Verifying range 0x0FE00000 - 0x0FE007FF (2 KB)
+Reading MCU information failed, retrying...
+WARNING: Could not get MCU info, some functions may not function properly.
+Reading MCU information failed, retrying...
+WARNING: Could not get MCU info, some functions may not function properly.
+ERROR: Can not preserve data in partially written pages without MCU information available. Use --force or --device to proceed.
 DONE

@@ -262,6 +262,7 @@ extern "C" {
     CMD_REQUEST_LED_ALLLED_RESTORE = 0x0707,
     
     CMD_REQUEST_ST = 0x0802,
+    CMD_REQUEST_ST_AMBER = 0x0803,    
   };
 
   enum {
@@ -303,6 +304,7 @@ extern "C" {
   int cmd_request_zwave_exclude(char *buff);
 
   int cmd_request_st(char *buff);
+  int cmd_request_st_amber(char *buff);  
 #ifdef __cplusplus
 }
 #endif
