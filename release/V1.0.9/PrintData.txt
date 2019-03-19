@@ -1,2 +1,0 @@
-MAC,MACTYPE
- 000b57fffe54cdd, 000b57fffe54cdd|1203
