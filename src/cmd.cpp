@@ -348,26 +348,37 @@ int cmd_request_4g_at_cmd(char *buff) {
 	return 0;
 }
 int cmd_request_sim_card_chk(char *buff) {
+  int cnt = 0;
+  int flag =0;
+  while (cnt < 3) {
           char frame[256];
-	
 	cmd_frame_send(CMD_REQUEST_SIM_CARD_CHK, NULL, 0);
-
 	int len = cmd_frame_wait(frame, sizeof(frame)/sizeof(frame[0]), 20000);
-
 	if (len <= 0) {
-	  return 1;
+	  cnt++;
+	  continue;
+	}
+	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_SIM_CARD_CHK |0x8000) ) {
+	  cnt++;
+	  continue;
 	}
 
-	if (proto_frame_get_cmd((u8*)frame) != (CMD_REQUEST_SIM_CARD_CHK |0x8000) ) {
-	  return 2;
-	}
 	char *data = (char*)proto_frame_get_data((u8*)frame);
 	ResSimCardChk_t *res = (ResSimCardChk_t *)data;
 
 	if (res->ret != E_OK) {
-	  return 3;
+	  cnt++;
+	  continue;
 	}
-	return 0;
+	flag = 1;
+	break;
+  }
+
+  if (flag == 0) {
+    return 1;
+  }
+  
+  return 0;
 }
 int cmd_request_zigbee_pair(char *buff) {
             char frame[256];
