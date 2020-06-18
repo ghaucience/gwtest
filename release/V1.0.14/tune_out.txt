@@ -1,0 +1,4 @@
+Reconfiguring debug connection with detected device part number: EFR32MG1B232F256GM32
+Writing 2048 bytes starting at address 0x0fe00000
+Comparing range 0x0FE00000 - 0x0FE007FF (2 KB)
+DONE

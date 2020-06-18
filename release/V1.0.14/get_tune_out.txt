@@ -1,0 +1,10 @@
+Reconfiguring debug connection with detected device part number: EFR32MG1B232F256GM32
+#
+# The token data can be in one of three main forms: byte-array, integer, or string.
+# Byte-arrays are a series of hexadecimal numbers of the required length.
+# Integers are BIG endian hexadecimal numbers.
+# String data is a quoted set of ASCII characters.
+#
+MFG_CTUNE: 0x0126
+
+DONE
